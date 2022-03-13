@@ -1,0 +1,562 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 9229,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 4400,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "my_stack_area_0",
+                        "size": 512,
+                        "identifier": ":/my_stack_area_0"
+                    },
+                    {
+                        "name": "my_thread",
+                        "size": 124,
+                        "identifier": ":/my_thread"
+                    },
+                    {
+                        "name": "_kernel",
+                        "size": 40,
+                        "identifier": ":/_kernel"
+                    },
+                    {
+                        "name": "mpu_config",
+                        "size": 8,
+                        "identifier": ":/mpu_config"
+                    },
+                    {
+                        "name": "z_main_thread",
+                        "size": 124,
+                        "identifier": ":/z_main_thread"
+                    },
+                    {
+                        "name": "my_stack_area",
+                        "size": 512,
+                        "identifier": ":/my_stack_area"
+                    },
+                    {
+                        "name": "k_sys_work_q",
+                        "size": 152,
+                        "identifier": ":/k_sys_work_q"
+                    },
+                    {
+                        "name": "z_interrupt_stacks",
+                        "size": 2048,
+                        "identifier": ":/z_interrupt_stacks"
+                    },
+                    {
+                        "name": "z_idle_threads",
+                        "size": 124,
+                        "identifier": ":/z_idle_threads"
+                    },
+                    {
+                        "name": "_sw_isr_table",
+                        "size": 632,
+                        "identifier": ":/_sw_isr_table"
+                    },
+                    {
+                        "name": "my_thread_0",
+                        "size": 124,
+                        "identifier": ":/my_thread_0"
+                    }
+                ]
+            },
+            {
+                "name": "tests",
+                "size": 916,
+                "identifier": "tests",
+                "children": [
+                    {
+                        "name": "benchmarks",
+                        "size": 916,
+                        "identifier": "tests/benchmarks",
+                        "children": [
+                            {
+                                "name": "footprints",
+                                "size": 916,
+                                "identifier": "tests/benchmarks/footprints",
+                                "children": [
+                                    {
+                                        "name": "src",
+                                        "size": 916,
+                                        "identifier": "tests/benchmarks/footprints/src",
+                                        "children": [
+                                            {
+                                                "name": "libc.c",
+                                                "size": 32,
+                                                "identifier": "tests/benchmarks/footprints/src/libc.c",
+                                                "children": [
+                                                    {
+                                                        "name": "new_string",
+                                                        "size": 32,
+                                                        "identifier": "tests/benchmarks/footprints/src/libc.c/new_string"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "timer.c",
+                                                "size": 68,
+                                                "identifier": "tests/benchmarks/footprints/src/timer.c",
+                                                "children": [
+                                                    {
+                                                        "name": "tdata",
+                                                        "size": 16,
+                                                        "identifier": "tests/benchmarks/footprints/src/timer.c/tdata"
+                                                    },
+                                                    {
+                                                        "name": "timer0",
+                                                        "size": 52,
+                                                        "identifier": "tests/benchmarks/footprints/src/timer.c/timer0"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "workq.c",
+                                                "size": 680,
+                                                "identifier": "tests/benchmarks/footprints/src/workq.c",
+                                                "children": [
+                                                    {
+                                                        "name": "workq",
+                                                        "size": 152,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/workq"
+                                                    },
+                                                    {
+                                                        "name": "workq_stack",
+                                                        "size": 512,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/workq_stack"
+                                                    },
+                                                    {
+                                                        "name": "sync_sema",
+                                                        "size": 16,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/sync_sema"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "pm_device.c",
+                                                "size": 104,
+                                                "identifier": "tests/benchmarks/footprints/src/pm_device.c",
+                                                "children": [
+                                                    {
+                                                        "name": "__pm_device__dummy_pm_driver",
+                                                        "size": 92,
+                                                        "identifier": "tests/benchmarks/footprints/src/pm_device.c/__pm_device__dummy_pm_driver"
+                                                    },
+                                                    {
+                                                        "name": "__devstate_dummy_driver",
+                                                        "size": 4,
+                                                        "identifier": "tests/benchmarks/footprints/src/pm_device.c/__devstate_dummy_driver"
+                                                    },
+                                                    {
+                                                        "name": "__devstate_dummy_pm_driver",
+                                                        "size": 4,
+                                                        "identifier": "tests/benchmarks/footprints/src/pm_device.c/__devstate_dummy_pm_driver"
+                                                    },
+                                                    {
+                                                        "name": "__pm_device__dummy_pm_driverslot",
+                                                        "size": 4,
+                                                        "identifier": "tests/benchmarks/footprints/src/pm_device.c/__pm_device__dummy_pm_driverslot"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "system_thread.c",
+                                                "size": 16,
+                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c",
+                                                "children": [
+                                                    {
+                                                        "name": "yield_sem",
+                                                        "size": 16,
+                                                        "identifier": "tests/benchmarks/footprints/src/system_thread.c/yield_sem"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "semaphore.c",
+                                                "size": 16,
+                                                "identifier": "tests/benchmarks/footprints/src/semaphore.c",
+                                                "children": [
+                                                    {
+                                                        "name": "semaphore0",
+                                                        "size": 16,
+                                                        "identifier": "tests/benchmarks/footprints/src/semaphore.c/semaphore0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "subsys",
+                "size": 68,
+                "identifier": "subsys",
+                "children": [
+                    {
+                        "name": "pm",
+                        "size": 68,
+                        "identifier": "subsys/pm",
+                        "children": [
+                            {
+                                "name": "pm.c",
+                                "size": 40,
+                                "identifier": "subsys/pm/pm.c",
+                                "children": [
+                                    {
+                                        "name": "num_susp",
+                                        "size": 4,
+                                        "identifier": "subsys/pm/pm.c/num_susp"
+                                    },
+                                    {
+                                        "name": "pm_notifiers",
+                                        "size": 8,
+                                        "identifier": "subsys/pm/pm.c/pm_notifiers"
+                                    },
+                                    {
+                                        "name": "z_cpus_pm_state",
+                                        "size": 16,
+                                        "identifier": "subsys/pm/pm.c/z_cpus_pm_state"
+                                    },
+                                    {
+                                        "name": "z_cpus_pm_state_forced",
+                                        "size": 4,
+                                        "identifier": "subsys/pm/pm.c/z_cpus_pm_state_forced"
+                                    },
+                                    {
+                                        "name": "z_post_ops_required",
+                                        "size": 4,
+                                        "identifier": "subsys/pm/pm.c/z_post_ops_required"
+                                    },
+                                    {
+                                        "name": "z_cpus_active",
+                                        "size": 4,
+                                        "identifier": "subsys/pm/pm.c/z_cpus_active"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "constraint.c",
+                                "size": 28,
+                                "identifier": "subsys/pm/constraint.c",
+                                "children": [
+                                    {
+                                        "name": "power_state_disable_count",
+                                        "size": 28,
+                                        "identifier": "subsys/pm/constraint.c/power_state_disable_count"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "lib",
+                "size": 8,
+                "identifier": "lib",
+                "children": [
+                    {
+                        "name": "libc",
+                        "size": 4,
+                        "identifier": "lib/libc",
+                        "children": [
+                            {
+                                "name": "minimal",
+                                "size": 4,
+                                "identifier": "lib/libc/minimal",
+                                "children": [
+                                    {
+                                        "name": "source",
+                                        "size": 4,
+                                        "identifier": "lib/libc/minimal/source",
+                                        "children": [
+                                            {
+                                                "name": "stdout",
+                                                "size": 4,
+                                                "identifier": "lib/libc/minimal/source/stdout",
+                                                "children": [
+                                                    {
+                                                        "name": "stdout_console.c",
+                                                        "size": 4,
+                                                        "identifier": "lib/libc/minimal/source/stdout/stdout_console.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_stdout_hook",
+                                                                "size": 4,
+                                                                "identifier": "lib/libc/minimal/source/stdout/stdout_console.c/_stdout_hook"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "os",
+                        "size": 4,
+                        "identifier": "lib/os",
+                        "children": [
+                            {
+                                "name": "printk.c",
+                                "size": 4,
+                                "identifier": "lib/os/printk.c",
+                                "children": [
+                                    {
+                                        "name": "_char_out",
+                                        "size": 4,
+                                        "identifier": "lib/os/printk.c/_char_out"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "drivers",
+                "size": 48,
+                "identifier": "drivers",
+                "children": [
+                    {
+                        "name": "console",
+                        "size": 4,
+                        "identifier": "drivers/console",
+                        "children": [
+                            {
+                                "name": "uart_console.c",
+                                "size": 4,
+                                "identifier": "drivers/console/uart_console.c",
+                                "children": [
+                                    {
+                                        "name": "uart_console_dev",
+                                        "size": 4,
+                                        "identifier": "drivers/console/uart_console.c/uart_console_dev"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "serial",
+                        "size": 28,
+                        "identifier": "drivers/serial",
+                        "children": [
+                            {
+                                "name": "uart_ns16550.c",
+                                "size": 28,
+                                "identifier": "drivers/serial/uart_ns16550.c",
+                                "children": [
+                                    {
+                                        "name": "uart_ns16550_dev_data_0",
+                                        "size": 24,
+                                        "identifier": "drivers/serial/uart_ns16550.c/uart_ns16550_dev_data_0"
+                                    },
+                                    {
+                                        "name": "__devstate_dts_ord_25",
+                                        "size": 4,
+                                        "identifier": "drivers/serial/uart_ns16550.c/__devstate_dts_ord_25"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "timer",
+                        "size": 16,
+                        "identifier": "drivers/timer",
+                        "children": [
+                            {
+                                "name": "arcv2_timer0.c",
+                                "size": 16,
+                                "identifier": "drivers/timer/arcv2_timer0.c",
+                                "children": [
+                                    {
+                                        "name": "announced_cycles",
+                                        "size": 4,
+                                        "identifier": "drivers/timer/arcv2_timer0.c/announced_cycles"
+                                    },
+                                    {
+                                        "name": "cycle_count",
+                                        "size": 4,
+                                        "identifier": "drivers/timer/arcv2_timer0.c/cycle_count"
+                                    },
+                                    {
+                                        "name": "last_load",
+                                        "size": 4,
+                                        "identifier": "drivers/timer/arcv2_timer0.c/last_load"
+                                    },
+                                    {
+                                        "name": "overflow_cycles",
+                                        "size": 4,
+                                        "identifier": "drivers/timer/arcv2_timer0.c/overflow_cycles"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "kernel",
+                "size": 3705,
+                "identifier": "kernel",
+                "children": [
+                    {
+                        "name": "init.c",
+                        "size": 2369,
+                        "identifier": "kernel/init.c",
+                        "children": [
+                            {
+                                "name": "z_idle_stacks",
+                                "size": 320,
+                                "identifier": "kernel/init.c/z_idle_stacks"
+                            },
+                            {
+                                "name": "z_main_stack",
+                                "size": 2048,
+                                "identifier": "kernel/init.c/z_main_stack"
+                            },
+                            {
+                                "name": "z_sys_post_kernel",
+                                "size": 1,
+                                "identifier": "kernel/init.c/z_sys_post_kernel"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "work.c",
+                        "size": 8,
+                        "identifier": "kernel/work.c",
+                        "children": [
+                            {
+                                "name": "pending_cancels",
+                                "size": 8,
+                                "identifier": "kernel/work.c/pending_cancels"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sched.c",
+                        "size": 8,
+                        "identifier": "kernel/sched.c",
+                        "children": [
+                            {
+                                "name": "slice_max_prio",
+                                "size": 4,
+                                "identifier": "kernel/sched.c/slice_max_prio"
+                            },
+                            {
+                                "name": "slice_ticks",
+                                "size": 4,
+                                "identifier": "kernel/sched.c/slice_ticks"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "timeout.c",
+                        "size": 20,
+                        "identifier": "kernel/timeout.c",
+                        "children": [
+                            {
+                                "name": "announce_remaining",
+                                "size": 4,
+                                "identifier": "kernel/timeout.c/announce_remaining"
+                            },
+                            {
+                                "name": "curr_tick",
+                                "size": 8,
+                                "identifier": "kernel/timeout.c/curr_tick"
+                            },
+                            {
+                                "name": "timeout_list",
+                                "size": 8,
+                                "identifier": "kernel/timeout.c/timeout_list"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "system_work_q.c",
+                        "size": 1024,
+                        "identifier": "kernel/system_work_q.c",
+                        "children": [
+                            {
+                                "name": "sys_work_q_stack",
+                                "size": 1024,
+                                "identifier": "kernel/system_work_q.c/sys_work_q_stack"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mempool.c",
+                        "size": 276,
+                        "identifier": "kernel/mempool.c",
+                        "children": [
+                            {
+                                "name": "kheap__system_heap",
+                                "size": 256,
+                                "identifier": "kernel/mempool.c/kheap__system_heap"
+                            },
+                            {
+                                "name": "_system_heap",
+                                "size": 20,
+                                "identifier": "kernel/mempool.c/_system_heap"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "boards",
+                "size": 80,
+                "identifier": "boards",
+                "children": [
+                    {
+                        "name": "arc",
+                        "size": 80,
+                        "identifier": "boards/arc",
+                        "children": [
+                            {
+                                "name": "iotdk",
+                                "size": 80,
+                                "identifier": "boards/arc/iotdk",
+                                "children": [
+                                    {
+                                        "name": "arc_mpu_regions.c",
+                                        "size": 80,
+                                        "identifier": "boards/arc/iotdk/arc_mpu_regions.c",
+                                        "children": [
+                                            {
+                                                "name": "mpu_regions",
+                                                "size": 80,
+                                                "identifier": "boards/arc/iotdk/arc_mpu_regions.c/mpu_regions"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 4,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 9229
+}
