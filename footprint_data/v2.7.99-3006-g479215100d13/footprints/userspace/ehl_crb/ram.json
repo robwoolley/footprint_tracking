@@ -1,0 +1,935 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 11208321,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 4770729,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "lock.0",
+                        "size": 8,
+                        "identifier": ":/lock.0"
+                    },
+                    {
+                        "name": "_irq_alloc_fixed0.0",
+                        "size": 1,
+                        "identifier": ":/_irq_alloc_fixed0.0"
+                    },
+                    {
+                        "name": "async_msg.5",
+                        "size": 1280,
+                        "identifier": ":/async_msg.5"
+                    },
+                    {
+                        "name": "z_loapic_regs",
+                        "size": 8,
+                        "identifier": ":/z_loapic_regs"
+                    },
+                    {
+                        "name": "z_free_page_count",
+                        "size": 8,
+                        "identifier": ":/z_free_page_count"
+                    },
+                    {
+                        "name": "_irq_to_interrupt_vector",
+                        "size": 128,
+                        "identifier": ":/_irq_to_interrupt_vector"
+                    },
+                    {
+                        "name": "my_stack_area_0",
+                        "size": 12288,
+                        "identifier": ":/my_stack_area_0"
+                    },
+                    {
+                        "name": "my_thread",
+                        "size": 928,
+                        "identifier": ":/my_thread"
+                    },
+                    {
+                        "name": "_kernel",
+                        "size": 56,
+                        "identifier": ":/_kernel"
+                    },
+                    {
+                        "name": "z_main_thread",
+                        "size": 928,
+                        "identifier": ":/z_main_thread"
+                    },
+                    {
+                        "name": "my_stack_area",
+                        "size": 12288,
+                        "identifier": ":/my_stack_area"
+                    },
+                    {
+                        "name": "k_sys_work_q",
+                        "size": 992,
+                        "identifier": ":/k_sys_work_q"
+                    },
+                    {
+                        "name": "z_mem_domain_lock",
+                        "size": 8,
+                        "identifier": ":/z_mem_domain_lock"
+                    },
+                    {
+                        "name": "z_interrupt_stacks",
+                        "size": 20480,
+                        "identifier": ":/z_interrupt_stacks"
+                    },
+                    {
+                        "name": "footprint_mem_domain",
+                        "size": 424,
+                        "identifier": ":/footprint_mem_domain"
+                    },
+                    {
+                        "name": "k_mem_domain_default",
+                        "size": 424,
+                        "identifier": ":/k_mem_domain_default"
+                    },
+                    {
+                        "name": "z_idle_threads",
+                        "size": 928,
+                        "identifier": ":/z_idle_threads"
+                    },
+                    {
+                        "name": "footprint_mem_partition",
+                        "size": 24,
+                        "identifier": ":/footprint_mem_partition"
+                    },
+                    {
+                        "name": "z_page_frames",
+                        "size": 4718592,
+                        "identifier": ":/z_page_frames"
+                    },
+                    {
+                        "name": "sched_spinlock",
+                        "size": 8,
+                        "identifier": ":/sched_spinlock"
+                    },
+                    {
+                        "name": "my_thread_0",
+                        "size": 928,
+                        "identifier": ":/my_thread_0"
+                    }
+                ]
+            },
+            {
+                "name": "tests",
+                "size": 27760,
+                "identifier": "tests",
+                "children": [
+                    {
+                        "name": "benchmarks",
+                        "size": 27760,
+                        "identifier": "tests/benchmarks",
+                        "children": [
+                            {
+                                "name": "footprints",
+                                "size": 27760,
+                                "identifier": "tests/benchmarks/footprints",
+                                "children": [
+                                    {
+                                        "name": "src",
+                                        "size": 27760,
+                                        "identifier": "tests/benchmarks/footprints/src",
+                                        "children": [
+                                            {
+                                                "name": "libc.c",
+                                                "size": 32,
+                                                "identifier": "tests/benchmarks/footprints/src/libc.c",
+                                                "children": [
+                                                    {
+                                                        "name": "new_string",
+                                                        "size": 32,
+                                                        "identifier": "tests/benchmarks/footprints/src/libc.c/new_string"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "timer.c",
+                                                "size": 104,
+                                                "identifier": "tests/benchmarks/footprints/src/timer.c",
+                                                "children": [
+                                                    {
+                                                        "name": "tdata",
+                                                        "size": 16,
+                                                        "identifier": "tests/benchmarks/footprints/src/timer.c/tdata"
+                                                    },
+                                                    {
+                                                        "name": "timer0",
+                                                        "size": 88,
+                                                        "identifier": "tests/benchmarks/footprints/src/timer.c/timer0"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "workq.c",
+                                                "size": 26592,
+                                                "identifier": "tests/benchmarks/footprints/src/workq.c",
+                                                "children": [
+                                                    {
+                                                        "name": "workq",
+                                                        "size": 992,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/workq"
+                                                    },
+                                                    {
+                                                        "name": "user_work_item",
+                                                        "size": 24,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/user_work_item"
+                                                    },
+                                                    {
+                                                        "name": "user_workq",
+                                                        "size": 976,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/user_workq"
+                                                    },
+                                                    {
+                                                        "name": "workq_stack",
+                                                        "size": 12288,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/workq_stack"
+                                                    },
+                                                    {
+                                                        "name": "user_workq_stack",
+                                                        "size": 12288,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/user_workq_stack"
+                                                    },
+                                                    {
+                                                        "name": "sync_sema",
+                                                        "size": 24,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c/sync_sema"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "userspace.c",
+                                                "size": 952,
+                                                "identifier": "tests/benchmarks/footprints/src/userspace.c",
+                                                "children": [
+                                                    {
+                                                        "name": "my_thread_user",
+                                                        "size": 928,
+                                                        "identifier": "tests/benchmarks/footprints/src/userspace.c/my_thread_user"
+                                                    },
+                                                    {
+                                                        "name": "test_sema",
+                                                        "size": 24,
+                                                        "identifier": "tests/benchmarks/footprints/src/userspace.c/test_sema"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "mutex.c",
+                                                "size": 32,
+                                                "identifier": "tests/benchmarks/footprints/src/mutex.c",
+                                                "children": [
+                                                    {
+                                                        "name": "user_mutex",
+                                                        "size": 32,
+                                                        "identifier": "tests/benchmarks/footprints/src/mutex.c/user_mutex"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "system_thread.c",
+                                                "size": 24,
+                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c",
+                                                "children": [
+                                                    {
+                                                        "name": "yield_sem",
+                                                        "size": 24,
+                                                        "identifier": "tests/benchmarks/footprints/src/system_thread.c/yield_sem"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "semaphore.c",
+                                                "size": 24,
+                                                "identifier": "tests/benchmarks/footprints/src/semaphore.c",
+                                                "children": [
+                                                    {
+                                                        "name": "semaphore0",
+                                                        "size": 24,
+                                                        "identifier": "tests/benchmarks/footprints/src/semaphore.c/semaphore0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "arch",
+                "size": 6332071,
+                "identifier": "arch",
+                "children": [
+                    {
+                        "name": "x86",
+                        "size": 6332071,
+                        "identifier": "arch/x86",
+                        "children": [
+                            {
+                                "name": "core",
+                                "size": 6332071,
+                                "identifier": "arch/x86/core",
+                                "children": [
+                                    {
+                                        "name": "pcie.c",
+                                        "size": 65,
+                                        "identifier": "arch/x86/core/pcie.c",
+                                        "children": [
+                                            {
+                                                "name": "bus_segs",
+                                                "size": 64,
+                                                "identifier": "arch/x86/core/pcie.c/bus_segs"
+                                            },
+                                            {
+                                                "name": "do_pcie_mmio_cfg",
+                                                "size": 1,
+                                                "identifier": "arch/x86/core/pcie.c/do_pcie_mmio_cfg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "acpi.c",
+                                        "size": 9,
+                                        "identifier": "arch/x86/core/acpi.c",
+                                        "children": [
+                                            {
+                                                "name": "is_rsdp_searched",
+                                                "size": 1,
+                                                "identifier": "arch/x86/core/acpi.c/is_rsdp_searched"
+                                            },
+                                            {
+                                                "name": "rsdp",
+                                                "size": 8,
+                                                "identifier": "arch/x86/core/acpi.c/rsdp"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "x86_mmu.c",
+                                        "size": 6328352,
+                                        "identifier": "arch/x86/core/x86_mmu.c",
+                                        "children": [
+                                            {
+                                                "name": "page_pos",
+                                                "size": 8,
+                                                "identifier": "arch/x86/core/x86_mmu.c/page_pos"
+                                            },
+                                            {
+                                                "name": "page_pool",
+                                                "size": 6328320,
+                                                "identifier": "arch/x86/core/x86_mmu.c/page_pool"
+                                            },
+                                            {
+                                                "name": "x86_mmu_lock",
+                                                "size": 8,
+                                                "identifier": "arch/x86/core/x86_mmu.c/x86_mmu_lock"
+                                            },
+                                            {
+                                                "name": "x86_domain_list",
+                                                "size": 16,
+                                                "identifier": "arch/x86/core/x86_mmu.c/x86_domain_list"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "early_serial.c",
+                                        "size": 13,
+                                        "identifier": "arch/x86/core/early_serial.c",
+                                        "children": [
+                                            {
+                                                "name": "mmio",
+                                                "size": 8,
+                                                "identifier": "arch/x86/core/early_serial.c/mmio"
+                                            },
+                                            {
+                                                "name": "early_serial_init_done",
+                                                "size": 1,
+                                                "identifier": "arch/x86/core/early_serial.c/early_serial_init_done"
+                                            },
+                                            {
+                                                "name": "suppressed_chars",
+                                                "size": 4,
+                                                "identifier": "arch/x86/core/early_serial.c/suppressed_chars"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "intel64",
+                                        "size": 3632,
+                                        "identifier": "arch/x86/core/intel64",
+                                        "children": [
+                                            {
+                                                "name": "cpu.c",
+                                                "size": 48,
+                                                "identifier": "arch/x86/core/intel64/cpu.c",
+                                                "children": [
+                                                    {
+                                                        "name": "x86_cpuboot",
+                                                        "size": 48,
+                                                        "identifier": "arch/x86/core/intel64/cpu.c/x86_cpuboot"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "irq.c",
+                                                "size": 3584,
+                                                "identifier": "arch/x86/core/intel64/irq.c",
+                                                "children": [
+                                                    {
+                                                        "name": "x86_irq_funcs",
+                                                        "size": 1792,
+                                                        "identifier": "arch/x86/core/intel64/irq.c/x86_irq_funcs"
+                                                    },
+                                                    {
+                                                        "name": "x86_irq_args",
+                                                        "size": 1792,
+                                                        "identifier": "arch/x86/core/intel64/irq.c/x86_irq_args"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "lib",
+                "size": 16,
+                "identifier": "lib",
+                "children": [
+                    {
+                        "name": "libc",
+                        "size": 8,
+                        "identifier": "lib/libc",
+                        "children": [
+                            {
+                                "name": "minimal",
+                                "size": 8,
+                                "identifier": "lib/libc/minimal",
+                                "children": [
+                                    {
+                                        "name": "source",
+                                        "size": 8,
+                                        "identifier": "lib/libc/minimal/source",
+                                        "children": [
+                                            {
+                                                "name": "stdout",
+                                                "size": 8,
+                                                "identifier": "lib/libc/minimal/source/stdout",
+                                                "children": [
+                                                    {
+                                                        "name": "stdout_console.c",
+                                                        "size": 8,
+                                                        "identifier": "lib/libc/minimal/source/stdout/stdout_console.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_stdout_hook",
+                                                                "size": 8,
+                                                                "identifier": "lib/libc/minimal/source/stdout/stdout_console.c/_stdout_hook"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "os",
+                        "size": 8,
+                        "identifier": "lib/os",
+                        "children": [
+                            {
+                                "name": "printk.c",
+                                "size": 8,
+                                "identifier": "lib/os/printk.c",
+                                "children": [
+                                    {
+                                        "name": "_char_out",
+                                        "size": 8,
+                                        "identifier": "lib/os/printk.c/_char_out"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "drivers",
+                "size": 164,
+                "identifier": "drivers",
+                "children": [
+                    {
+                        "name": "interrupt_controller",
+                        "size": 20,
+                        "identifier": "drivers/interrupt_controller",
+                        "children": [
+                            {
+                                "name": "intc_ioapic.c",
+                                "size": 16,
+                                "identifier": "drivers/interrupt_controller/intc_ioapic.c",
+                                "children": [
+                                    {
+                                        "name": "z_mmio_ram__ioapic_regs",
+                                        "size": 8,
+                                        "identifier": "drivers/interrupt_controller/intc_ioapic.c/z_mmio_ram__ioapic_regs"
+                                    },
+                                    {
+                                        "name": "ioapic_rtes",
+                                        "size": 4,
+                                        "identifier": "drivers/interrupt_controller/intc_ioapic.c/ioapic_rtes"
+                                    },
+                                    {
+                                        "name": "__devstate_ioapic",
+                                        "size": 4,
+                                        "identifier": "drivers/interrupt_controller/intc_ioapic.c/__devstate_ioapic"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "intc_loapic.c",
+                                "size": 4,
+                                "identifier": "drivers/interrupt_controller/intc_loapic.c",
+                                "children": [
+                                    {
+                                        "name": "__devstate_loapic",
+                                        "size": 4,
+                                        "identifier": "drivers/interrupt_controller/intc_loapic.c/__devstate_loapic"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "console",
+                        "size": 8,
+                        "identifier": "drivers/console",
+                        "children": [
+                            {
+                                "name": "uart_console.c",
+                                "size": 8,
+                                "identifier": "drivers/console/uart_console.c",
+                                "children": [
+                                    {
+                                        "name": "uart_console_dev",
+                                        "size": 8,
+                                        "identifier": "drivers/console/uart_console.c/uart_console_dev"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "serial",
+                        "size": 108,
+                        "identifier": "drivers/serial",
+                        "children": [
+                            {
+                                "name": "uart_ns16550.c",
+                                "size": 108,
+                                "identifier": "drivers/serial/uart_ns16550.c",
+                                "children": [
+                                    {
+                                        "name": "__devstate_dts_ord_31",
+                                        "size": 4,
+                                        "identifier": "drivers/serial/uart_ns16550.c/__devstate_dts_ord_31"
+                                    },
+                                    {
+                                        "name": "uart_ns16550_dev_data_2",
+                                        "size": 32,
+                                        "identifier": "drivers/serial/uart_ns16550.c/uart_ns16550_dev_data_2"
+                                    },
+                                    {
+                                        "name": "__devstate_dts_ord_33",
+                                        "size": 4,
+                                        "identifier": "drivers/serial/uart_ns16550.c/__devstate_dts_ord_33"
+                                    },
+                                    {
+                                        "name": "uart_ns16550_dev_data_1",
+                                        "size": 32,
+                                        "identifier": "drivers/serial/uart_ns16550.c/uart_ns16550_dev_data_1"
+                                    },
+                                    {
+                                        "name": "__devstate_dts_ord_32",
+                                        "size": 4,
+                                        "identifier": "drivers/serial/uart_ns16550.c/__devstate_dts_ord_32"
+                                    },
+                                    {
+                                        "name": "uart_ns16550_dev_data_0",
+                                        "size": 32,
+                                        "identifier": "drivers/serial/uart_ns16550.c/uart_ns16550_dev_data_0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "timer",
+                        "size": 28,
+                        "identifier": "drivers/timer",
+                        "children": [
+                            {
+                                "name": "hpet.c",
+                                "size": 28,
+                                "identifier": "drivers/timer/hpet.c",
+                                "children": [
+                                    {
+                                        "name": "z_mmio_ram__hpet_regs",
+                                        "size": 8,
+                                        "identifier": "drivers/timer/hpet.c/z_mmio_ram__hpet_regs"
+                                    },
+                                    {
+                                        "name": "lock",
+                                        "size": 8,
+                                        "identifier": "drivers/timer/hpet.c/lock"
+                                    },
+                                    {
+                                        "name": "last_count",
+                                        "size": 8,
+                                        "identifier": "drivers/timer/hpet.c/last_count"
+                                    },
+                                    {
+                                        "name": "cyc_per_tick",
+                                        "size": 4,
+                                        "identifier": "drivers/timer/hpet.c/cyc_per_tick"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "kernel",
+                "size": 66195,
+                "identifier": "kernel",
+                "children": [
+                    {
+                        "name": "mutex.c",
+                        "size": 8,
+                        "identifier": "kernel/mutex.c",
+                        "children": [
+                            {
+                                "name": "lock",
+                                "size": 8,
+                                "identifier": "kernel/mutex.c/lock"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sem.c",
+                        "size": 8,
+                        "identifier": "kernel/sem.c",
+                        "children": [
+                            {
+                                "name": "lock",
+                                "size": 8,
+                                "identifier": "kernel/sem.c/lock"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "work.c",
+                        "size": 24,
+                        "identifier": "kernel/work.c",
+                        "children": [
+                            {
+                                "name": "lock",
+                                "size": 8,
+                                "identifier": "kernel/work.c/lock"
+                            },
+                            {
+                                "name": "pending_cancels",
+                                "size": 16,
+                                "identifier": "kernel/work.c/pending_cancels"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "timer.c",
+                        "size": 8,
+                        "identifier": "kernel/timer.c",
+                        "children": [
+                            {
+                                "name": "lock",
+                                "size": 8,
+                                "identifier": "kernel/timer.c/lock"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "init.c",
+                        "size": 20481,
+                        "identifier": "kernel/init.c",
+                        "children": [
+                            {
+                                "name": "z_idle_stacks",
+                                "size": 8192,
+                                "identifier": "kernel/init.c/z_idle_stacks"
+                            },
+                            {
+                                "name": "z_main_stack",
+                                "size": 12288,
+                                "identifier": "kernel/init.c/z_main_stack"
+                            },
+                            {
+                                "name": "z_sys_post_kernel",
+                                "size": 1,
+                                "identifier": "kernel/init.c/z_sys_post_kernel"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sched.c",
+                        "size": 8,
+                        "identifier": "kernel/sched.c",
+                        "children": [
+                            {
+                                "name": "slice_time",
+                                "size": 4,
+                                "identifier": "kernel/sched.c/slice_time"
+                            },
+                            {
+                                "name": "slice_max_prio",
+                                "size": 4,
+                                "identifier": "kernel/sched.c/slice_max_prio"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "smp.c",
+                        "size": 16,
+                        "identifier": "kernel/smp.c",
+                        "children": [
+                            {
+                                "name": "global_lock",
+                                "size": 8,
+                                "identifier": "kernel/smp.c/global_lock"
+                            },
+                            {
+                                "name": "start_flag",
+                                "size": 8,
+                                "identifier": "kernel/smp.c/start_flag"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "timeout.c",
+                        "size": 40,
+                        "identifier": "kernel/timeout.c",
+                        "children": [
+                            {
+                                "name": "announce_remaining",
+                                "size": 4,
+                                "identifier": "kernel/timeout.c/announce_remaining"
+                            },
+                            {
+                                "name": "timeout_list",
+                                "size": 16,
+                                "identifier": "kernel/timeout.c/timeout_list"
+                            },
+                            {
+                                "name": "timeout_lock",
+                                "size": 8,
+                                "identifier": "kernel/timeout.c/timeout_lock"
+                            },
+                            {
+                                "name": "curr_tick",
+                                "size": 8,
+                                "identifier": "kernel/timeout.c/curr_tick"
+                            },
+                            {
+                                "name": "z_clock_hw_cycles_per_sec",
+                                "size": 4,
+                                "identifier": "kernel/timeout.c/z_clock_hw_cycles_per_sec"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mmu.c",
+                        "size": 32817,
+                        "identifier": "kernel/mmu.c",
+                        "children": [
+                            {
+                                "name": "virt_region_inited",
+                                "size": 1,
+                                "identifier": "kernel/mmu.c/virt_region_inited"
+                            },
+                            {
+                                "name": "virt_region_bitmap",
+                                "size": 24,
+                                "identifier": "kernel/mmu.c/virt_region_bitmap"
+                            },
+                            {
+                                "name": "free_page_frame_list",
+                                "size": 16,
+                                "identifier": "kernel/mmu.c/free_page_frame_list"
+                            },
+                            {
+                                "name": "_sys_bitarray_bundles_virt_region_bitmap",
+                                "size": 32768,
+                                "identifier": "kernel/mmu.c/_sys_bitarray_bundles_virt_region_bitmap"
+                            },
+                            {
+                                "name": "z_mm_lock",
+                                "size": 8,
+                                "identifier": "kernel/mmu.c/z_mm_lock"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mem_domain.c",
+                        "size": 1,
+                        "identifier": "kernel/mem_domain.c",
+                        "children": [
+                            {
+                                "name": "max_partitions",
+                                "size": 1,
+                                "identifier": "kernel/mem_domain.c/max_partitions"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "userspace.c",
+                        "size": 56,
+                        "identifier": "kernel/userspace.c",
+                        "children": [
+                            {
+                                "name": "lists_lock",
+                                "size": 8,
+                                "identifier": "kernel/userspace.c/lists_lock"
+                            },
+                            {
+                                "name": "obj_rb_tree",
+                                "size": 24,
+                                "identifier": "kernel/userspace.c/obj_rb_tree"
+                            },
+                            {
+                                "name": "obj_lock",
+                                "size": 8,
+                                "identifier": "kernel/userspace.c/obj_lock"
+                            },
+                            {
+                                "name": "obj_list",
+                                "size": 16,
+                                "identifier": "kernel/userspace.c/obj_list"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "system_work_q.c",
+                        "size": 12288,
+                        "identifier": "kernel/system_work_q.c",
+                        "children": [
+                            {
+                                "name": "sys_work_q_stack",
+                                "size": 12288,
+                                "identifier": "kernel/system_work_q.c/sys_work_q_stack"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "pipes.c",
+                        "size": 136,
+                        "identifier": "kernel/pipes.c",
+                        "children": [
+                            {
+                                "name": "pipe_async_msgs",
+                                "size": 56,
+                                "identifier": "kernel/pipes.c/pipe_async_msgs"
+                            },
+                            {
+                                "name": "_k_stack_buf_pipe_async_msgs",
+                                "size": 80,
+                                "identifier": "kernel/pipes.c/_k_stack_buf_pipe_async_msgs"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mempool.c",
+                        "size": 304,
+                        "identifier": "kernel/mempool.c",
+                        "children": [
+                            {
+                                "name": "kheap__system_heap",
+                                "size": 256,
+                                "identifier": "kernel/mempool.c/kheap__system_heap"
+                            },
+                            {
+                                "name": "_system_heap",
+                                "size": 48,
+                                "identifier": "kernel/mempool.c/_system_heap"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "out",
+                "size": 422,
+                "identifier": "out",
+                "children": [
+                    {
+                        "name": "footprints",
+                        "size": 422,
+                        "identifier": "out/footprints",
+                        "children": [
+                            {
+                                "name": "userspace",
+                                "size": 422,
+                                "identifier": "out/footprints/userspace",
+                                "children": [
+                                    {
+                                        "name": "ehl_crb",
+                                        "size": 422,
+                                        "identifier": "out/footprints/userspace/ehl_crb",
+                                        "children": [
+                                            {
+                                                "name": "kobject_hash.gperf",
+                                                "size": 422,
+                                                "identifier": "out/footprints/userspace/ehl_crb/kobject_hash.gperf",
+                                                "children": [
+                                                    {
+                                                        "name": "wordlist",
+                                                        "size": 420,
+                                                        "identifier": "out/footprints/userspace/ehl_crb/kobject_hash.gperf/wordlist"
+                                                    },
+                                                    {
+                                                        "name": "_thread_idx_map",
+                                                        "size": 2,
+                                                        "identifier": "out/footprints/userspace/ehl_crb/kobject_hash.gperf/_thread_idx_map"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 10964,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 11208321
+}
