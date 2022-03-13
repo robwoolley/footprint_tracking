@@ -1,0 +1,2582 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 23206,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 970,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "delay_machine_code.0",
+                        "size": 6,
+                        "identifier": ":/delay_machine_code.0"
+                    },
+                    {
+                        "name": "transitions.0",
+                        "size": 12,
+                        "identifier": ":/transitions.0"
+                    },
+                    {
+                        "name": "CSWTCH.1",
+                        "size": 14,
+                        "identifier": ":/CSWTCH.1"
+                    },
+                    {
+                        "name": "CSWTCH.3",
+                        "size": 14,
+                        "identifier": ":/CSWTCH.3"
+                    },
+                    {
+                        "name": "CSWTCH.5",
+                        "size": 14,
+                        "identifier": ":/CSWTCH.5"
+                    },
+                    {
+                        "name": "levels.0",
+                        "size": 20,
+                        "identifier": ":/levels.0"
+                    },
+                    {
+                        "name": "CSWTCH.273",
+                        "size": 20,
+                        "identifier": ":/CSWTCH.273"
+                    },
+                    {
+                        "name": "__ashldi3",
+                        "size": 24,
+                        "identifier": ":/__ashldi3"
+                    },
+                    {
+                        "name": "__aeabi_uldivmod",
+                        "size": 62,
+                        "identifier": ":/__aeabi_uldivmod"
+                    },
+                    {
+                        "name": "SystemCoreClock",
+                        "size": 4,
+                        "identifier": ":/SystemCoreClock"
+                    },
+                    {
+                        "name": "__udivmoddi4",
+                        "size": 222,
+                        "identifier": ":/__udivmoddi4"
+                    },
+                    {
+                        "name": "__gnu_thumb1_case_uqi",
+                        "size": 18,
+                        "identifier": ":/__gnu_thumb1_case_uqi"
+                    },
+                    {
+                        "name": "__device_dts_ord_6",
+                        "size": 24,
+                        "identifier": ":/__device_dts_ord_6"
+                    },
+                    {
+                        "name": "__lshrdi3",
+                        "size": 24,
+                        "identifier": ":/__lshrdi3"
+                    },
+                    {
+                        "name": "__clzsi2",
+                        "size": 60,
+                        "identifier": ":/__clzsi2"
+                    },
+                    {
+                        "name": "__gnu_thumb1_case_shi",
+                        "size": 20,
+                        "identifier": ":/__gnu_thumb1_case_shi"
+                    },
+                    {
+                        "name": "__device_dts_ord_24",
+                        "size": 24,
+                        "identifier": ":/__device_dts_ord_24"
+                    },
+                    {
+                        "name": "__device_dts_ord_41",
+                        "size": 24,
+                        "identifier": ":/__device_dts_ord_41"
+                    },
+                    {
+                        "name": "__ctzsi2",
+                        "size": 64,
+                        "identifier": ":/__ctzsi2"
+                    },
+                    {
+                        "name": "__gnu_thumb1_case_sqi",
+                        "size": 18,
+                        "identifier": ":/__gnu_thumb1_case_sqi"
+                    },
+                    {
+                        "name": "_sw_isr_table",
+                        "size": 208,
+                        "identifier": ":/_sw_isr_table"
+                    },
+                    {
+                        "name": "__aeabi_idiv0",
+                        "size": 2,
+                        "identifier": ":/__aeabi_idiv0"
+                    },
+                    {
+                        "name": "__muldi3",
+                        "size": 72,
+                        "identifier": ":/__muldi3"
+                    }
+                ]
+            },
+            {
+                "name": "ZEPHYR_BASE",
+                "size": 18217,
+                "identifier": "/opt/projects/zephyrproject/zephyr",
+                "children": [
+                    {
+                        "name": "tests",
+                        "size": 1311,
+                        "identifier": "tests",
+                        "children": [
+                            {
+                                "name": "benchmarks",
+                                "size": 1311,
+                                "identifier": "tests/benchmarks",
+                                "children": [
+                                    {
+                                        "name": "footprints",
+                                        "size": 1311,
+                                        "identifier": "tests/benchmarks/footprints",
+                                        "children": [
+                                            {
+                                                "name": "src",
+                                                "size": 1311,
+                                                "identifier": "tests/benchmarks/footprints/src",
+                                                "children": [
+                                                    {
+                                                        "name": "libc.c",
+                                                        "size": 89,
+                                                        "identifier": "tests/benchmarks/footprints/src/libc.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "const_string",
+                                                                "size": 9,
+                                                                "identifier": "tests/benchmarks/footprints/src/libc.c/const_string"
+                                                            },
+                                                            {
+                                                                "name": "run_libc",
+                                                                "size": 80,
+                                                                "identifier": "tests/benchmarks/footprints/src/libc.c/run_libc"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "timer.c",
+                                                        "size": 304,
+                                                        "identifier": "tests/benchmarks/footprints/src/timer.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "timer_stop",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/timer.c/timer_stop"
+                                                            },
+                                                            {
+                                                                "name": "timer_expire",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/timer.c/timer_expire"
+                                                            },
+                                                            {
+                                                                "name": "thread_fn",
+                                                                "size": 184,
+                                                                "identifier": "tests/benchmarks/footprints/src/timer.c/thread_fn"
+                                                            },
+                                                            {
+                                                                "name": "run_timer",
+                                                                "size": 88,
+                                                                "identifier": "tests/benchmarks/footprints/src/timer.c/run_timer"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "semaphore.c",
+                                                        "size": 140,
+                                                        "identifier": "tests/benchmarks/footprints/src/semaphore.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "thread_fn",
+                                                                "size": 28,
+                                                                "identifier": "tests/benchmarks/footprints/src/semaphore.c/thread_fn"
+                                                            },
+                                                            {
+                                                                "name": "run_semaphore",
+                                                                "size": 96,
+                                                                "identifier": "tests/benchmarks/footprints/src/semaphore.c/run_semaphore"
+                                                            },
+                                                            {
+                                                                "name": "semaphore0",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/semaphore.c/semaphore0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "mutex.c",
+                                                        "size": 30,
+                                                        "identifier": "tests/benchmarks/footprints/src/mutex.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "run_mutex",
+                                                                "size": 30,
+                                                                "identifier": "tests/benchmarks/footprints/src/mutex.c/run_mutex"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "workq.c",
+                                                        "size": 276,
+                                                        "identifier": "tests/benchmarks/footprints/src/workq.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "run_workq",
+                                                                "size": 148,
+                                                                "identifier": "tests/benchmarks/footprints/src/workq.c/run_workq"
+                                                            },
+                                                            {
+                                                                "name": "workq_func",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/workq.c/workq_func"
+                                                            },
+                                                            {
+                                                                "name": "delayed_workq_thread",
+                                                                "size": 60,
+                                                                "identifier": "tests/benchmarks/footprints/src/workq.c/delayed_workq_thread"
+                                                            },
+                                                            {
+                                                                "name": "simple_workq_thread",
+                                                                "size": 52,
+                                                                "identifier": "tests/benchmarks/footprints/src/workq.c/simple_workq_thread"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "system_thread.c",
+                                                        "size": 380,
+                                                        "identifier": "tests/benchmarks/footprints/src/system_thread.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "thread_yield0",
+                                                                "size": 36,
+                                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c/thread_yield0"
+                                                            },
+                                                            {
+                                                                "name": "run_thread_system",
+                                                                "size": 276,
+                                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c/run_thread_system"
+                                                            },
+                                                            {
+                                                                "name": "yield_sem",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c/yield_sem"
+                                                            },
+                                                            {
+                                                                "name": "thread_suspend",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c/thread_suspend"
+                                                            },
+                                                            {
+                                                                "name": "thread_yield1",
+                                                                "size": 20,
+                                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c/thread_yield1"
+                                                            },
+                                                            {
+                                                                "name": "thread_swap",
+                                                                "size": 16,
+                                                                "identifier": "tests/benchmarks/footprints/src/system_thread.c/thread_swap"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "heap.c",
+                                                        "size": 32,
+                                                        "identifier": "tests/benchmarks/footprints/src/heap.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "run_heap_malloc_free",
+                                                                "size": 32,
+                                                                "identifier": "tests/benchmarks/footprints/src/heap.c/run_heap_malloc_free"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "main.c",
+                                                        "size": 60,
+                                                        "identifier": "tests/benchmarks/footprints/src/main.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "main",
+                                                                "size": 60,
+                                                                "identifier": "tests/benchmarks/footprints/src/main.c/main"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lib",
+                        "size": 4202,
+                        "identifier": "lib",
+                        "children": [
+                            {
+                                "name": "os",
+                                "size": 4024,
+                                "identifier": "lib/os",
+                                "children": [
+                                    {
+                                        "name": "printk.c",
+                                        "size": 190,
+                                        "identifier": "lib/os/printk.c",
+                                        "children": [
+                                            {
+                                                "name": "char_out",
+                                                "size": 20,
+                                                "identifier": "lib/os/printk.c/char_out"
+                                            },
+                                            {
+                                                "name": "str_out",
+                                                "size": 42,
+                                                "identifier": "lib/os/printk.c/str_out"
+                                            },
+                                            {
+                                                "name": "vsnprintk",
+                                                "size": 40,
+                                                "identifier": "lib/os/printk.c/vsnprintk"
+                                            },
+                                            {
+                                                "name": "_char_out",
+                                                "size": 4,
+                                                "identifier": "lib/os/printk.c/_char_out"
+                                            },
+                                            {
+                                                "name": "__printk_hook_install",
+                                                "size": 12,
+                                                "identifier": "lib/os/printk.c/__printk_hook_install"
+                                            },
+                                            {
+                                                "name": "arch_printk_char_out",
+                                                "size": 4,
+                                                "identifier": "lib/os/printk.c/arch_printk_char_out"
+                                            },
+                                            {
+                                                "name": "vprintk",
+                                                "size": 24,
+                                                "identifier": "lib/os/printk.c/vprintk"
+                                            },
+                                            {
+                                                "name": "printk",
+                                                "size": 22,
+                                                "identifier": "lib/os/printk.c/printk"
+                                            },
+                                            {
+                                                "name": "snprintk",
+                                                "size": 22,
+                                                "identifier": "lib/os/printk.c/snprintk"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "onoff.c",
+                                        "size": 794,
+                                        "identifier": "lib/os/onoff.c",
+                                        "children": [
+                                            {
+                                                "name": "process_recheck",
+                                                "size": 56,
+                                                "identifier": "lib/os/onoff.c/process_recheck"
+                                            },
+                                            {
+                                                "name": "notify_one",
+                                                "size": 34,
+                                                "identifier": "lib/os/onoff.c/notify_one"
+                                            },
+                                            {
+                                                "name": "process_event",
+                                                "size": 460,
+                                                "identifier": "lib/os/onoff.c/process_event"
+                                            },
+                                            {
+                                                "name": "transition_complete",
+                                                "size": 18,
+                                                "identifier": "lib/os/onoff.c/transition_complete"
+                                            },
+                                            {
+                                                "name": "validate_args",
+                                                "size": 36,
+                                                "identifier": "lib/os/onoff.c/validate_args"
+                                            },
+                                            {
+                                                "name": "onoff_manager_init",
+                                                "size": 46,
+                                                "identifier": "lib/os/onoff.c/onoff_manager_init"
+                                            },
+                                            {
+                                                "name": "onoff_request",
+                                                "size": 144,
+                                                "identifier": "lib/os/onoff.c/onoff_request"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "cbprintf_complete.c",
+                                        "size": 2040,
+                                        "identifier": "lib/os/cbprintf_complete.c",
+                                        "children": [
+                                            {
+                                                "name": "encode_uint",
+                                                "size": 152,
+                                                "identifier": "lib/os/cbprintf_complete.c/encode_uint"
+                                            },
+                                            {
+                                                "name": "outs",
+                                                "size": 44,
+                                                "identifier": "lib/os/cbprintf_complete.c/outs"
+                                            },
+                                            {
+                                                "name": "cbvprintf",
+                                                "size": 1844,
+                                                "identifier": "lib/os/cbprintf_complete.c/cbvprintf"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "heap.h",
+                                        "size": 10,
+                                        "identifier": "lib/os/heap.h",
+                                        "children": [
+                                            {
+                                                "name": "chunk_size",
+                                                "size": 10,
+                                                "identifier": "lib/os/heap.h/chunk_size"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "heap.c",
+                                        "size": 912,
+                                        "identifier": "lib/os/heap.c",
+                                        "children": [
+                                            {
+                                                "name": "free_list_add",
+                                                "size": 80,
+                                                "identifier": "lib/os/heap.c/free_list_add"
+                                            },
+                                            {
+                                                "name": "free_list_remove_bidx",
+                                                "size": 52,
+                                                "identifier": "lib/os/heap.c/free_list_remove_bidx"
+                                            },
+                                            {
+                                                "name": "free_list_remove",
+                                                "size": 28,
+                                                "identifier": "lib/os/heap.c/free_list_remove"
+                                            },
+                                            {
+                                                "name": "alloc_chunk",
+                                                "size": 126,
+                                                "identifier": "lib/os/heap.c/alloc_chunk"
+                                            },
+                                            {
+                                                "name": "merge_chunks",
+                                                "size": 48,
+                                                "identifier": "lib/os/heap.c/merge_chunks"
+                                            },
+                                            {
+                                                "name": "split_chunks",
+                                                "size": 52,
+                                                "identifier": "lib/os/heap.c/split_chunks"
+                                            },
+                                            {
+                                                "name": "free_chunk",
+                                                "size": 96,
+                                                "identifier": "lib/os/heap.c/free_chunk"
+                                            },
+                                            {
+                                                "name": "sys_heap_free",
+                                                "size": 32,
+                                                "identifier": "lib/os/heap.c/sys_heap_free"
+                                            },
+                                            {
+                                                "name": "sys_heap_aligned_alloc",
+                                                "size": 194,
+                                                "identifier": "lib/os/heap.c/sys_heap_aligned_alloc"
+                                            },
+                                            {
+                                                "name": "sys_heap_init",
+                                                "size": 118,
+                                                "identifier": "lib/os/heap.c/sys_heap_init"
+                                            },
+                                            {
+                                                "name": "sys_heap_alloc",
+                                                "size": 86,
+                                                "identifier": "lib/os/heap.c/sys_heap_alloc"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "thread_entry.c",
+                                        "size": 20,
+                                        "identifier": "lib/os/thread_entry.c",
+                                        "children": [
+                                            {
+                                                "name": "z_thread_entry",
+                                                "size": 20,
+                                                "identifier": "lib/os/thread_entry.c/z_thread_entry"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "notify.c",
+                                        "size": 58,
+                                        "identifier": "lib/os/notify.c",
+                                        "children": [
+                                            {
+                                                "name": "sys_notify_validate",
+                                                "size": 36,
+                                                "identifier": "lib/os/notify.c/sys_notify_validate"
+                                            },
+                                            {
+                                                "name": "sys_notify_finalize",
+                                                "size": 22,
+                                                "identifier": "lib/os/notify.c/sys_notify_finalize"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "libc",
+                                "size": 178,
+                                "identifier": "lib/libc",
+                                "children": [
+                                    {
+                                        "name": "minimal",
+                                        "size": 178,
+                                        "identifier": "lib/libc/minimal",
+                                        "children": [
+                                            {
+                                                "name": "source",
+                                                "size": 22,
+                                                "identifier": "lib/libc/minimal/source",
+                                                "children": [
+                                                    {
+                                                        "name": "stdout",
+                                                        "size": 22,
+                                                        "identifier": "lib/libc/minimal/source/stdout",
+                                                        "children": [
+                                                            {
+                                                                "name": "stdout_console.c",
+                                                                "size": 22,
+                                                                "identifier": "lib/libc/minimal/source/stdout/stdout_console.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "_stdout_hook_default",
+                                                                        "size": 6,
+                                                                        "identifier": "lib/libc/minimal/source/stdout/stdout_console.c/_stdout_hook_default"
+                                                                    },
+                                                                    {
+                                                                        "name": "_stdout_hook",
+                                                                        "size": 4,
+                                                                        "identifier": "lib/libc/minimal/source/stdout/stdout_console.c/_stdout_hook"
+                                                                    },
+                                                                    {
+                                                                        "name": "__stdout_hook_install",
+                                                                        "size": 12,
+                                                                        "identifier": "lib/libc/minimal/source/stdout/stdout_console.c/__stdout_hook_install"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "include",
+                                                "size": 156,
+                                                "identifier": "lib/libc/minimal/include",
+                                                "children": [
+                                                    {
+                                                        "name": "string.h",
+                                                        "size": 156,
+                                                        "identifier": "lib/libc/minimal/include/string.h",
+                                                        "children": [
+                                                            {
+                                                                "name": "strcpy",
+                                                                "size": 18,
+                                                                "identifier": "lib/libc/minimal/include/string.h/strcpy"
+                                                            },
+                                                            {
+                                                                "name": "memcpy",
+                                                                "size": 18,
+                                                                "identifier": "lib/libc/minimal/include/string.h/memcpy"
+                                                            },
+                                                            {
+                                                                "name": "strnlen",
+                                                                "size": 20,
+                                                                "identifier": "lib/libc/minimal/include/string.h/strnlen"
+                                                            },
+                                                            {
+                                                                "name": "strncpy",
+                                                                "size": 36,
+                                                                "identifier": "lib/libc/minimal/include/string.h/strncpy"
+                                                            },
+                                                            {
+                                                                "name": "memcmp",
+                                                                "size": 30,
+                                                                "identifier": "lib/libc/minimal/include/string.h/memcmp"
+                                                            },
+                                                            {
+                                                                "name": "memset",
+                                                                "size": 18,
+                                                                "identifier": "lib/libc/minimal/include/string.h/memset"
+                                                            },
+                                                            {
+                                                                "name": "strlen",
+                                                                "size": 16,
+                                                                "identifier": "lib/libc/minimal/include/string.h/strlen"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "subsys",
+                        "size": 614,
+                        "identifier": "subsys",
+                        "children": [
+                            {
+                                "name": "pm",
+                                "size": 592,
+                                "identifier": "subsys/pm",
+                                "children": [
+                                    {
+                                        "name": "pm.c",
+                                        "size": 416,
+                                        "identifier": "subsys/pm/pm.c",
+                                        "children": [
+                                            {
+                                                "name": "pm_state_notify",
+                                                "size": 76,
+                                                "identifier": "subsys/pm/pm.c/pm_state_notify"
+                                            },
+                                            {
+                                                "name": "pm_system_resume",
+                                                "size": 112,
+                                                "identifier": "subsys/pm/pm.c/pm_system_resume"
+                                            },
+                                            {
+                                                "name": "pm_system_suspend",
+                                                "size": 220,
+                                                "identifier": "subsys/pm/pm.c/pm_system_suspend"
+                                            },
+                                            {
+                                                "name": "log_const_pm",
+                                                "size": 8,
+                                                "identifier": "subsys/pm/pm.c/log_const_pm"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "state.c",
+                                        "size": 16,
+                                        "identifier": "subsys/pm/state.c",
+                                        "children": [
+                                            {
+                                                "name": "pm_state_cpu_get_all",
+                                                "size": 16,
+                                                "identifier": "subsys/pm/state.c/pm_state_cpu_get_all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "policy",
+                                        "size": 136,
+                                        "identifier": "subsys/pm/policy",
+                                        "children": [
+                                            {
+                                                "name": "residency.c",
+                                                "size": 136,
+                                                "identifier": "subsys/pm/policy/residency.c",
+                                                "children": [
+                                                    {
+                                                        "name": "pm_policy_next_state",
+                                                        "size": 136,
+                                                        "identifier": "subsys/pm/policy/residency.c/pm_policy_next_state"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "constraint.c",
+                                        "size": 24,
+                                        "identifier": "subsys/pm/constraint.c",
+                                        "children": [
+                                            {
+                                                "name": "pm_constraint_get",
+                                                "size": 24,
+                                                "identifier": "subsys/pm/constraint.c/pm_constraint_get"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "logging",
+                                "size": 22,
+                                "identifier": "subsys/logging",
+                                "children": [
+                                    {
+                                        "name": "log_minimal.c",
+                                        "size": 22,
+                                        "identifier": "subsys/logging/log_minimal.c",
+                                        "children": [
+                                            {
+                                                "name": "z_log_minimal_printk",
+                                                "size": 22,
+                                                "identifier": "subsys/logging/log_minimal.c/z_log_minimal_printk"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "include",
+                        "size": 56,
+                        "identifier": "include",
+                        "children": [
+                            {
+                                "name": "sys",
+                                "size": 56,
+                                "identifier": "include/sys",
+                                "children": [
+                                    {
+                                        "name": "atomic.h",
+                                        "size": 40,
+                                        "identifier": "include/sys/atomic.h",
+                                        "children": [
+                                            {
+                                                "name": "atomic_test_and_set_bit.constprop.0",
+                                                "size": 40,
+                                                "identifier": "include/sys/atomic.h/atomic_test_and_set_bit.constprop.0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "dlist.h",
+                                        "size": 16,
+                                        "identifier": "include/sys/dlist.h",
+                                        "children": [
+                                            {
+                                                "name": "sys_dlist_remove",
+                                                "size": 16,
+                                                "identifier": "include/sys/dlist.h/sys_dlist_remove"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "soc",
+                        "size": 116,
+                        "identifier": "soc",
+                        "children": [
+                            {
+                                "name": "arm",
+                                "size": 116,
+                                "identifier": "soc/arm",
+                                "children": [
+                                    {
+                                        "name": "nordic_nrf",
+                                        "size": 116,
+                                        "identifier": "soc/arm/nordic_nrf",
+                                        "children": [
+                                            {
+                                                "name": "nrf51",
+                                                "size": 116,
+                                                "identifier": "soc/arm/nordic_nrf/nrf51",
+                                                "children": [
+                                                    {
+                                                        "name": "soc.c",
+                                                        "size": 60,
+                                                        "identifier": "soc/arm/nordic_nrf/nrf51/soc.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "nordicsemi_nrf51_init",
+                                                                "size": 20,
+                                                                "identifier": "soc/arm/nordic_nrf/nrf51/soc.c/nordicsemi_nrf51_init"
+                                                            },
+                                                            {
+                                                                "name": "__init_sys_init_nordicsemi_nrf51_init0",
+                                                                "size": 8,
+                                                                "identifier": "soc/arm/nordic_nrf/nrf51/soc.c/__init_sys_init_nordicsemi_nrf51_init0"
+                                                            },
+                                                            {
+                                                                "name": "arch_busy_wait",
+                                                                "size": 24,
+                                                                "identifier": "soc/arm/nordic_nrf/nrf51/soc.c/arch_busy_wait"
+                                                            },
+                                                            {
+                                                                "name": "log_const_soc",
+                                                                "size": 8,
+                                                                "identifier": "soc/arm/nordic_nrf/nrf51/soc.c/log_const_soc"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "power.c",
+                                                        "size": 56,
+                                                        "identifier": "soc/arm/nordic_nrf/nrf51/power.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "pm_power_state_exit_post_ops",
+                                                                "size": 18,
+                                                                "identifier": "soc/arm/nordic_nrf/nrf51/power.c/pm_power_state_exit_post_ops"
+                                                            },
+                                                            {
+                                                                "name": "pm_power_state_set",
+                                                                "size": 38,
+                                                                "identifier": "soc/arm/nordic_nrf/nrf51/power.c/pm_power_state_set"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "drivers",
+                        "size": 4122,
+                        "identifier": "drivers",
+                        "children": [
+                            {
+                                "name": "clock_control",
+                                "size": 1088,
+                                "identifier": "drivers/clock_control",
+                                "children": [
+                                    {
+                                        "name": "clock_control_nrf.c",
+                                        "size": 1088,
+                                        "identifier": "drivers/clock_control/clock_control_nrf.c",
+                                        "children": [
+                                            {
+                                                "name": "get_status",
+                                                "size": 18,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/get_status"
+                                            },
+                                            {
+                                                "name": "set_on_state",
+                                                "size": 30,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/set_on_state"
+                                            },
+                                            {
+                                                "name": "stop",
+                                                "size": 96,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/stop"
+                                            },
+                                            {
+                                                "name": "api_stop",
+                                                "size": 10,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/api_stop"
+                                            },
+                                            {
+                                                "name": "async_start",
+                                                "size": 98,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/async_start"
+                                            },
+                                            {
+                                                "name": "api_start",
+                                                "size": 12,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/api_start"
+                                            },
+                                            {
+                                                "name": "onoff_stop",
+                                                "size": 44,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/onoff_stop"
+                                            },
+                                            {
+                                                "name": "onoff_started_callback",
+                                                "size": 18,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/onoff_started_callback"
+                                            },
+                                            {
+                                                "name": "onoff_start",
+                                                "size": 56,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/onoff_start"
+                                            },
+                                            {
+                                                "name": "lfclk_start",
+                                                "size": 10,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/lfclk_start"
+                                            },
+                                            {
+                                                "name": "lfclk_stop",
+                                                "size": 10,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/lfclk_stop"
+                                            },
+                                            {
+                                                "name": "blocking_start_callback",
+                                                "size": 10,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/blocking_start_callback"
+                                            },
+                                            {
+                                                "name": "clk_init",
+                                                "size": 96,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/clk_init"
+                                            },
+                                            {
+                                                "name": "clock_event_handler",
+                                                "size": 36,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/clock_event_handler"
+                                            },
+                                            {
+                                                "name": "clkstarted_handle.constprop.0",
+                                                "size": 52,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/clkstarted_handle.constprop.0"
+                                            },
+                                            {
+                                                "name": "generic_hfclk_start",
+                                                "size": 92,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/generic_hfclk_start"
+                                            },
+                                            {
+                                                "name": "api_blocking_start",
+                                                "size": 48,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/api_blocking_start"
+                                            },
+                                            {
+                                                "name": "generic_hfclk_stop",
+                                                "size": 32,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/generic_hfclk_stop"
+                                            },
+                                            {
+                                                "name": "clock_control_api",
+                                                "size": 24,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/clock_control_api"
+                                            },
+                                            {
+                                                "name": "config",
+                                                "size": 24,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/config"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_24",
+                                                "size": 4,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/__devstate_dts_ord_24"
+                                            },
+                                            {
+                                                "name": "__init___device_dts_ord_24",
+                                                "size": 8,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/__init___device_dts_ord_24"
+                                            },
+                                            {
+                                                "name": "log_const_clock_control",
+                                                "size": 8,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/log_const_clock_control"
+                                            },
+                                            {
+                                                "name": "z_nrf_clock_control_lf_on",
+                                                "size": 252,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/z_nrf_clock_control_lf_on"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "console",
+                                "size": 100,
+                                "identifier": "drivers/console",
+                                "children": [
+                                    {
+                                        "name": "uart_console.c",
+                                        "size": 100,
+                                        "identifier": "drivers/console/uart_console.c",
+                                        "children": [
+                                            {
+                                                "name": "uart_console_init",
+                                                "size": 52,
+                                                "identifier": "drivers/console/uart_console.c/uart_console_init"
+                                            },
+                                            {
+                                                "name": "console_out",
+                                                "size": 40,
+                                                "identifier": "drivers/console/uart_console.c/console_out"
+                                            },
+                                            {
+                                                "name": "__init_sys_init_uart_console_init0",
+                                                "size": 8,
+                                                "identifier": "drivers/console/uart_console.c/__init_sys_init_uart_console_init0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gpio",
+                                "size": 902,
+                                "identifier": "drivers/gpio",
+                                "children": [
+                                    {
+                                        "name": "gpio_nrfx.c",
+                                        "size": 902,
+                                        "identifier": "drivers/gpio/gpio_nrfx.c",
+                                        "children": [
+                                            {
+                                                "name": "gpio_nrfx_port_get_raw",
+                                                "size": 16,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_port_get_raw"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_port_set_masked_raw",
+                                                "size": 28,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_port_set_masked_raw"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_port_set_bits_raw",
+                                                "size": 14,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_port_set_bits_raw"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_port_clear_bits_raw",
+                                                "size": 16,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_port_clear_bits_raw"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_port_toggle_bits",
+                                                "size": 20,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_port_toggle_bits"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_manage_callback",
+                                                "size": 92,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_manage_callback"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_pin_interrupt_configure",
+                                                "size": 224,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_pin_interrupt_configure"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_init",
+                                                "size": 60,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_init"
+                                            },
+                                            {
+                                                "name": "nrfx_gpio_handler",
+                                                "size": 56,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/nrfx_gpio_handler"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_pin_configure",
+                                                "size": 312,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_pin_configure"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_drv_api_funcs",
+                                                "size": 36,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_drv_api_funcs"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p0_cfg",
+                                                "size": 16,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_p0_cfg"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_6",
+                                                "size": 4,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/__devstate_dts_ord_6"
+                                            },
+                                            {
+                                                "name": "__init___device_dts_ord_6",
+                                                "size": 8,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/__init___device_dts_ord_6"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "serial",
+                                "size": 878,
+                                "identifier": "drivers/serial",
+                                "children": [
+                                    {
+                                        "name": "uart_nrfx_uart.c",
+                                        "size": 878,
+                                        "identifier": "drivers/serial/uart_nrfx_uart.c",
+                                        "children": [
+                                            {
+                                                "name": "uart_nrfx_poll_in",
+                                                "size": 40,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_poll_in"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_err_check",
+                                                "size": 16,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_err_check"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_config_get",
+                                                "size": 10,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_config_get"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_configure",
+                                                "size": 400,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_configure"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_poll_out",
+                                                "size": 128,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_poll_out"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_init",
+                                                "size": 224,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_init"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_uart0_data",
+                                                "size": 8,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_uart0_data"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_uart0_config",
+                                                "size": 20,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_uart0_config"
+                                            },
+                                            {
+                                                "name": "uart_nrfx_uart_driver_api",
+                                                "size": 20,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/uart_nrfx_uart_driver_api"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_41",
+                                                "size": 4,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/__devstate_dts_ord_41"
+                                            },
+                                            {
+                                                "name": "__init___device_dts_ord_41",
+                                                "size": 8,
+                                                "identifier": "drivers/serial/uart_nrfx_uart.c/__init___device_dts_ord_41"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timer",
+                                "size": 1154,
+                                "identifier": "drivers/timer",
+                                "children": [
+                                    {
+                                        "name": "nrf_rtc_timer.c",
+                                        "size": 1152,
+                                        "identifier": "drivers/timer/nrf_rtc_timer.c",
+                                        "children": [
+                                            {
+                                                "name": "compare_int_lock",
+                                                "size": 56,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/compare_int_lock"
+                                            },
+                                            {
+                                                "name": "sys_clock_timeout_handler",
+                                                "size": 148,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/sys_clock_timeout_handler"
+                                            },
+                                            {
+                                                "name": "compare_int_unlock",
+                                                "size": 72,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/compare_int_unlock"
+                                            },
+                                            {
+                                                "name": "compare_set",
+                                                "size": 324,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/compare_set"
+                                            },
+                                            {
+                                                "name": "sys_clock_driver_init",
+                                                "size": 132,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/sys_clock_driver_init"
+                                            },
+                                            {
+                                                "name": "__init_sys_init_sys_clock_driver_init1",
+                                                "size": 8,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/__init_sys_init_sys_clock_driver_init1"
+                                            },
+                                            {
+                                                "name": "z_nrf_rtc_timer_read",
+                                                "size": 80,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/z_nrf_rtc_timer_read"
+                                            },
+                                            {
+                                                "name": "sys_clock_set_timeout",
+                                                "size": 96,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/sys_clock_set_timeout"
+                                            },
+                                            {
+                                                "name": "rtc_nrf_isr",
+                                                "size": 212,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/rtc_nrf_isr"
+                                            },
+                                            {
+                                                "name": "sys_clock_elapsed",
+                                                "size": 24,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/sys_clock_elapsed"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "sys_clock_init.c",
+                                        "size": 2,
+                                        "identifier": "drivers/timer/sys_clock_init.c",
+                                        "children": [
+                                            {
+                                                "name": "sys_clock_idle_exit",
+                                                "size": 2,
+                                                "identifier": "drivers/timer/sys_clock_init.c/sys_clock_idle_exit"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kernel",
+                        "size": 6940,
+                        "identifier": "kernel",
+                        "children": [
+                            {
+                                "name": "init.c",
+                                "size": 388,
+                                "identifier": "kernel/init.c",
+                                "children": [
+                                    {
+                                        "name": "init_idle_thread",
+                                        "size": 104,
+                                        "identifier": "kernel/init.c/init_idle_thread"
+                                    },
+                                    {
+                                        "name": "bg_thread_main",
+                                        "size": 52,
+                                        "identifier": "kernel/init.c/bg_thread_main"
+                                    },
+                                    {
+                                        "name": "z_cstart",
+                                        "size": 200,
+                                        "identifier": "kernel/init.c/z_cstart"
+                                    },
+                                    {
+                                        "name": "log_const_os",
+                                        "size": 8,
+                                        "identifier": "kernel/init.c/log_const_os"
+                                    },
+                                    {
+                                        "name": "z_bss_zero",
+                                        "size": 24,
+                                        "identifier": "kernel/init.c/z_bss_zero"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "mutex.c",
+                                "size": 412,
+                                "identifier": "kernel/mutex.c",
+                                "children": [
+                                    {
+                                        "name": "adjust_owner_prio.isra.0",
+                                        "size": 22,
+                                        "identifier": "kernel/mutex.c/adjust_owner_prio.isra.0"
+                                    },
+                                    {
+                                        "name": "z_impl_k_mutex_lock",
+                                        "size": 248,
+                                        "identifier": "kernel/mutex.c/z_impl_k_mutex_lock"
+                                    },
+                                    {
+                                        "name": "z_impl_k_mutex_unlock",
+                                        "size": 128,
+                                        "identifier": "kernel/mutex.c/z_impl_k_mutex_unlock"
+                                    },
+                                    {
+                                        "name": "z_impl_k_mutex_init",
+                                        "size": 14,
+                                        "identifier": "kernel/mutex.c/z_impl_k_mutex_init"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "work.c",
+                                "size": 870,
+                                "identifier": "kernel/work.c",
+                                "children": [
+                                    {
+                                        "name": "flag_test_and_clear",
+                                        "size": 24,
+                                        "identifier": "kernel/work.c/flag_test_and_clear"
+                                    },
+                                    {
+                                        "name": "unschedule_locked",
+                                        "size": 28,
+                                        "identifier": "kernel/work.c/unschedule_locked"
+                                    },
+                                    {
+                                        "name": "notify_queue_locked.isra.0",
+                                        "size": 18,
+                                        "identifier": "kernel/work.c/notify_queue_locked.isra.0"
+                                    },
+                                    {
+                                        "name": "work_queue_main",
+                                        "size": 284,
+                                        "identifier": "kernel/work.c/work_queue_main"
+                                    },
+                                    {
+                                        "name": "submit_to_queue_locked",
+                                        "size": 172,
+                                        "identifier": "kernel/work.c/submit_to_queue_locked"
+                                    },
+                                    {
+                                        "name": "work_timeout",
+                                        "size": 52,
+                                        "identifier": "kernel/work.c/work_timeout"
+                                    },
+                                    {
+                                        "name": "k_work_queue_start",
+                                        "size": 116,
+                                        "identifier": "kernel/work.c/k_work_queue_start"
+                                    },
+                                    {
+                                        "name": "k_work_init_delayable",
+                                        "size": 24,
+                                        "identifier": "kernel/work.c/k_work_init_delayable"
+                                    },
+                                    {
+                                        "name": "k_work_reschedule_for_queue",
+                                        "size": 84,
+                                        "identifier": "kernel/work.c/k_work_reschedule_for_queue"
+                                    },
+                                    {
+                                        "name": "k_work_init",
+                                        "size": 18,
+                                        "identifier": "kernel/work.c/k_work_init"
+                                    },
+                                    {
+                                        "name": "k_work_submit_to_queue",
+                                        "size": 50,
+                                        "identifier": "kernel/work.c/k_work_submit_to_queue"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sched.c",
+                                "size": 2380,
+                                "identifier": "kernel/sched.c",
+                                "children": [
+                                    {
+                                        "name": "unpend_thread_no_timeout",
+                                        "size": 22,
+                                        "identifier": "kernel/sched.c/unpend_thread_no_timeout"
+                                    },
+                                    {
+                                        "name": "update_cache",
+                                        "size": 68,
+                                        "identifier": "kernel/sched.c/update_cache"
+                                    },
+                                    {
+                                        "name": "move_thread_to_end_of_prio_q",
+                                        "size": 120,
+                                        "identifier": "kernel/sched.c/move_thread_to_end_of_prio_q"
+                                    },
+                                    {
+                                        "name": "ready_thread",
+                                        "size": 108,
+                                        "identifier": "kernel/sched.c/ready_thread"
+                                    },
+                                    {
+                                        "name": "unready_thread",
+                                        "size": 44,
+                                        "identifier": "kernel/sched.c/unready_thread"
+                                    },
+                                    {
+                                        "name": "add_to_waitq_locked",
+                                        "size": 88,
+                                        "identifier": "kernel/sched.c/add_to_waitq_locked"
+                                    },
+                                    {
+                                        "name": "pend",
+                                        "size": 60,
+                                        "identifier": "kernel/sched.c/pend"
+                                    },
+                                    {
+                                        "name": "z_tick_sleep",
+                                        "size": 148,
+                                        "identifier": "kernel/sched.c/z_tick_sleep"
+                                    },
+                                    {
+                                        "name": "z_impl_k_is_preempt_thread",
+                                        "size": 28,
+                                        "identifier": "kernel/sched.c/z_impl_k_is_preempt_thread"
+                                    },
+                                    {
+                                        "name": "z_unpend_thread_no_timeout",
+                                        "size": 24,
+                                        "identifier": "kernel/sched.c/z_unpend_thread_no_timeout"
+                                    },
+                                    {
+                                        "name": "z_impl_k_yield",
+                                        "size": 124,
+                                        "identifier": "kernel/sched.c/z_impl_k_yield"
+                                    },
+                                    {
+                                        "name": "z_thread_priority_set",
+                                        "size": 32,
+                                        "identifier": "kernel/sched.c/z_thread_priority_set"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_priority_get",
+                                        "size": 6,
+                                        "identifier": "kernel/sched.c/z_impl_k_thread_priority_get"
+                                    },
+                                    {
+                                        "name": "z_set_prio",
+                                        "size": 144,
+                                        "identifier": "kernel/sched.c/z_set_prio"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_join",
+                                        "size": 120,
+                                        "identifier": "kernel/sched.c/z_impl_k_thread_join"
+                                    },
+                                    {
+                                        "name": "z_priq_dumb_best",
+                                        "size": 12,
+                                        "identifier": "kernel/sched.c/z_priq_dumb_best"
+                                    },
+                                    {
+                                        "name": "z_sched_init",
+                                        "size": 28,
+                                        "identifier": "kernel/sched.c/z_sched_init"
+                                    },
+                                    {
+                                        "name": "z_unpend_all",
+                                        "size": 36,
+                                        "identifier": "kernel/sched.c/z_unpend_all"
+                                    },
+                                    {
+                                        "name": "k_sched_lock",
+                                        "size": 32,
+                                        "identifier": "kernel/sched.c/k_sched_lock"
+                                    },
+                                    {
+                                        "name": "z_sched_wait",
+                                        "size": 36,
+                                        "identifier": "kernel/sched.c/z_sched_wait"
+                                    },
+                                    {
+                                        "name": "z_sched_start",
+                                        "size": 52,
+                                        "identifier": "kernel/sched.c/z_sched_start"
+                                    },
+                                    {
+                                        "name": "z_sched_wake",
+                                        "size": 66,
+                                        "identifier": "kernel/sched.c/z_sched_wake"
+                                    },
+                                    {
+                                        "name": "z_impl_z_current_get",
+                                        "size": 12,
+                                        "identifier": "kernel/sched.c/z_impl_z_current_get"
+                                    },
+                                    {
+                                        "name": "z_impl_k_sleep",
+                                        "size": 56,
+                                        "identifier": "kernel/sched.c/z_impl_k_sleep"
+                                    },
+                                    {
+                                        "name": "z_thread_timeout",
+                                        "size": 56,
+                                        "identifier": "kernel/sched.c/z_thread_timeout"
+                                    },
+                                    {
+                                        "name": "z_thread_abort",
+                                        "size": 164,
+                                        "identifier": "kernel/sched.c/z_thread_abort"
+                                    },
+                                    {
+                                        "name": "z_pend_curr",
+                                        "size": 40,
+                                        "identifier": "kernel/sched.c/z_pend_curr"
+                                    },
+                                    {
+                                        "name": "z_reschedule",
+                                        "size": 44,
+                                        "identifier": "kernel/sched.c/z_reschedule"
+                                    },
+                                    {
+                                        "name": "k_sched_unlock",
+                                        "size": 44,
+                                        "identifier": "kernel/sched.c/k_sched_unlock"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_priority_set",
+                                        "size": 8,
+                                        "identifier": "kernel/sched.c/z_impl_k_thread_priority_set"
+                                    },
+                                    {
+                                        "name": "z_unpend1_no_timeout",
+                                        "size": 34,
+                                        "identifier": "kernel/sched.c/z_unpend1_no_timeout"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_suspend",
+                                        "size": 88,
+                                        "identifier": "kernel/sched.c/z_impl_k_thread_suspend"
+                                    },
+                                    {
+                                        "name": "k_sched_time_slice_set",
+                                        "size": 92,
+                                        "identifier": "kernel/sched.c/k_sched_time_slice_set"
+                                    },
+                                    {
+                                        "name": "z_ready_thread",
+                                        "size": 24,
+                                        "identifier": "kernel/sched.c/z_ready_thread"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_resume",
+                                        "size": 52,
+                                        "identifier": "kernel/sched.c/z_impl_k_thread_resume"
+                                    },
+                                    {
+                                        "name": "z_unpend_thread",
+                                        "size": 34,
+                                        "identifier": "kernel/sched.c/z_unpend_thread"
+                                    },
+                                    {
+                                        "name": "z_reschedule_irqlock",
+                                        "size": 28,
+                                        "identifier": "kernel/sched.c/z_reschedule_irqlock"
+                                    },
+                                    {
+                                        "name": "z_unpend_first_thread",
+                                        "size": 42,
+                                        "identifier": "kernel/sched.c/z_unpend_first_thread"
+                                    },
+                                    {
+                                        "name": "z_reset_time_slice",
+                                        "size": 40,
+                                        "identifier": "kernel/sched.c/z_reset_time_slice"
+                                    },
+                                    {
+                                        "name": "z_time_slice",
+                                        "size": 124,
+                                        "identifier": "kernel/sched.c/z_time_slice"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "include",
+                                "size": 16,
+                                "identifier": "kernel/include",
+                                "children": [
+                                    {
+                                        "name": "ksched.h",
+                                        "size": 14,
+                                        "identifier": "kernel/include/ksched.h",
+                                        "children": [
+                                            {
+                                                "name": "z_reschedule_unlocked",
+                                                "size": 14,
+                                                "identifier": "kernel/include/ksched.h/z_reschedule_unlocked"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "kernel_offsets.h",
+                                        "size": 2,
+                                        "identifier": "kernel/include/kernel_offsets.h",
+                                        "children": [
+                                            {
+                                                "name": "_OffsetAbsSyms",
+                                                "size": 2,
+                                                "identifier": "kernel/include/kernel_offsets.h/_OffsetAbsSyms"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timeout.c",
+                                "size": 914,
+                                "identifier": "kernel/timeout.c",
+                                "children": [
+                                    {
+                                        "name": "elapsed",
+                                        "size": 24,
+                                        "identifier": "kernel/timeout.c/elapsed"
+                                    },
+                                    {
+                                        "name": "next_timeout",
+                                        "size": 92,
+                                        "identifier": "kernel/timeout.c/next_timeout"
+                                    },
+                                    {
+                                        "name": "remove_timeout",
+                                        "size": 56,
+                                        "identifier": "kernel/timeout.c/remove_timeout"
+                                    },
+                                    {
+                                        "name": "timeout_list",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/timeout_list"
+                                    },
+                                    {
+                                        "name": "z_abort_timeout",
+                                        "size": 38,
+                                        "identifier": "kernel/timeout.c/z_abort_timeout"
+                                    },
+                                    {
+                                        "name": "sys_clock_announce",
+                                        "size": 232,
+                                        "identifier": "kernel/timeout.c/sys_clock_announce"
+                                    },
+                                    {
+                                        "name": "sys_clock_tick_get_32",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/sys_clock_tick_get_32"
+                                    },
+                                    {
+                                        "name": "sys_clock_tick_get",
+                                        "size": 44,
+                                        "identifier": "kernel/timeout.c/sys_clock_tick_get"
+                                    },
+                                    {
+                                        "name": "z_impl_k_busy_wait",
+                                        "size": 12,
+                                        "identifier": "kernel/timeout.c/z_impl_k_busy_wait"
+                                    },
+                                    {
+                                        "name": "sys_clock_timeout_end_calc",
+                                        "size": 84,
+                                        "identifier": "kernel/timeout.c/sys_clock_timeout_end_calc"
+                                    },
+                                    {
+                                        "name": "z_impl_k_uptime_ticks",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/z_impl_k_uptime_ticks"
+                                    },
+                                    {
+                                        "name": "z_set_timeout_expiry",
+                                        "size": 44,
+                                        "identifier": "kernel/timeout.c/z_set_timeout_expiry"
+                                    },
+                                    {
+                                        "name": "z_get_next_timeout_expiry",
+                                        "size": 24,
+                                        "identifier": "kernel/timeout.c/z_get_next_timeout_expiry"
+                                    },
+                                    {
+                                        "name": "z_add_timeout",
+                                        "size": 240,
+                                        "identifier": "kernel/timeout.c/z_add_timeout"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "mempool.c",
+                                "size": 124,
+                                "identifier": "kernel/mempool.c",
+                                "children": [
+                                    {
+                                        "name": "z_heap_aligned_alloc",
+                                        "size": 44,
+                                        "identifier": "kernel/mempool.c/z_heap_aligned_alloc"
+                                    },
+                                    {
+                                        "name": "k_aligned_alloc",
+                                        "size": 20,
+                                        "identifier": "kernel/mempool.c/k_aligned_alloc"
+                                    },
+                                    {
+                                        "name": "k_free",
+                                        "size": 16,
+                                        "identifier": "kernel/mempool.c/k_free"
+                                    },
+                                    {
+                                        "name": "_system_heap",
+                                        "size": 20,
+                                        "identifier": "kernel/mempool.c/_system_heap"
+                                    },
+                                    {
+                                        "name": "k_malloc",
+                                        "size": 12,
+                                        "identifier": "kernel/mempool.c/k_malloc"
+                                    },
+                                    {
+                                        "name": "k_thread_system_pool_assign",
+                                        "size": 12,
+                                        "identifier": "kernel/mempool.c/k_thread_system_pool_assign"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kheap.c",
+                                "size": 224,
+                                "identifier": "kernel/kheap.c",
+                                "children": [
+                                    {
+                                        "name": "statics_init",
+                                        "size": 36,
+                                        "identifier": "kernel/kheap.c/statics_init"
+                                    },
+                                    {
+                                        "name": "__init_sys_init_statics_init0",
+                                        "size": 8,
+                                        "identifier": "kernel/kheap.c/__init_sys_init_statics_init0"
+                                    },
+                                    {
+                                        "name": "k_heap_init",
+                                        "size": 16,
+                                        "identifier": "kernel/kheap.c/k_heap_init"
+                                    },
+                                    {
+                                        "name": "k_heap_aligned_alloc",
+                                        "size": 114,
+                                        "identifier": "kernel/kheap.c/k_heap_aligned_alloc"
+                                    },
+                                    {
+                                        "name": "k_heap_free",
+                                        "size": 50,
+                                        "identifier": "kernel/kheap.c/k_heap_free"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "system_work_q.c",
+                                "size": 56,
+                                "identifier": "kernel/system_work_q.c",
+                                "children": [
+                                    {
+                                        "name": "k_sys_work_q_init",
+                                        "size": 48,
+                                        "identifier": "kernel/system_work_q.c/k_sys_work_q_init"
+                                    },
+                                    {
+                                        "name": "__init_sys_init_k_sys_work_q_init1",
+                                        "size": 8,
+                                        "identifier": "kernel/system_work_q.c/__init_sys_init_k_sys_work_q_init1"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "thread.c",
+                                "size": 436,
+                                "identifier": "kernel/thread.c",
+                                "children": [
+                                    {
+                                        "name": "k_is_in_isr",
+                                        "size": 12,
+                                        "identifier": "kernel/thread.c/k_is_in_isr"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_create",
+                                        "size": 88,
+                                        "identifier": "kernel/thread.c/z_impl_k_thread_create"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_name_set",
+                                        "size": 32,
+                                        "identifier": "kernel/thread.c/z_impl_k_thread_name_set"
+                                    },
+                                    {
+                                        "name": "z_init_static_threads",
+                                        "size": 172,
+                                        "identifier": "kernel/thread.c/z_init_static_threads"
+                                    },
+                                    {
+                                        "name": "k_thread_name_get",
+                                        "size": 4,
+                                        "identifier": "kernel/thread.c/k_thread_name_get"
+                                    },
+                                    {
+                                        "name": "z_impl_k_thread_start",
+                                        "size": 8,
+                                        "identifier": "kernel/thread.c/z_impl_k_thread_start"
+                                    },
+                                    {
+                                        "name": "z_setup_new_thread",
+                                        "size": 120,
+                                        "identifier": "kernel/thread.c/z_setup_new_thread"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "device.c",
+                                "size": 94,
+                                "identifier": "kernel/device.c",
+                                "children": [
+                                    {
+                                        "name": "z_device_is_ready",
+                                        "size": 24,
+                                        "identifier": "kernel/device.c/z_device_is_ready"
+                                    },
+                                    {
+                                        "name": "z_sys_init_run_level",
+                                        "size": 68,
+                                        "identifier": "kernel/device.c/z_sys_init_run_level"
+                                    },
+                                    {
+                                        "name": "z_device_state_init",
+                                        "size": 2,
+                                        "identifier": "kernel/device.c/z_device_state_init"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "atomic_c.c",
+                                "size": 114,
+                                "identifier": "kernel/atomic_c.c",
+                                "children": [
+                                    {
+                                        "name": "z_impl_atomic_and",
+                                        "size": 26,
+                                        "identifier": "kernel/atomic_c.c/z_impl_atomic_and"
+                                    },
+                                    {
+                                        "name": "z_impl_atomic_set",
+                                        "size": 24,
+                                        "identifier": "kernel/atomic_c.c/z_impl_atomic_set"
+                                    },
+                                    {
+                                        "name": "atomic_get",
+                                        "size": 4,
+                                        "identifier": "kernel/atomic_c.c/atomic_get"
+                                    },
+                                    {
+                                        "name": "z_impl_atomic_or",
+                                        "size": 26,
+                                        "identifier": "kernel/atomic_c.c/z_impl_atomic_or"
+                                    },
+                                    {
+                                        "name": "z_impl_atomic_cas",
+                                        "size": 34,
+                                        "identifier": "kernel/atomic_c.c/z_impl_atomic_cas"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timer.c",
+                                "size": 382,
+                                "identifier": "kernel/timer.c",
+                                "children": [
+                                    {
+                                        "name": "z_impl_k_timer_stop",
+                                        "size": 50,
+                                        "identifier": "kernel/timer.c/z_impl_k_timer_stop"
+                                    },
+                                    {
+                                        "name": "z_timer_expiration_handler",
+                                        "size": 140,
+                                        "identifier": "kernel/timer.c/z_timer_expiration_handler"
+                                    },
+                                    {
+                                        "name": "k_timer_init",
+                                        "size": 24,
+                                        "identifier": "kernel/timer.c/k_timer_init"
+                                    },
+                                    {
+                                        "name": "z_impl_k_timer_start",
+                                        "size": 168,
+                                        "identifier": "kernel/timer.c/z_impl_k_timer_start"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "fatal.c",
+                                "size": 176,
+                                "identifier": "kernel/fatal.c",
+                                "children": [
+                                    {
+                                        "name": "k_sys_fatal_error_handler",
+                                        "size": 24,
+                                        "identifier": "kernel/fatal.c/k_sys_fatal_error_handler"
+                                    },
+                                    {
+                                        "name": "arch_system_halt",
+                                        "size": 8,
+                                        "identifier": "kernel/fatal.c/arch_system_halt"
+                                    },
+                                    {
+                                        "name": "z_fatal_error",
+                                        "size": 144,
+                                        "identifier": "kernel/fatal.c/z_fatal_error"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sem.c",
+                                "size": 222,
+                                "identifier": "kernel/sem.c",
+                                "children": [
+                                    {
+                                        "name": "z_impl_k_sem_take",
+                                        "size": 84,
+                                        "identifier": "kernel/sem.c/z_impl_k_sem_take"
+                                    },
+                                    {
+                                        "name": "z_impl_k_sem_init",
+                                        "size": 26,
+                                        "identifier": "kernel/sem.c/z_impl_k_sem_init"
+                                    },
+                                    {
+                                        "name": "z_impl_k_sem_give",
+                                        "size": 60,
+                                        "identifier": "kernel/sem.c/z_impl_k_sem_give"
+                                    },
+                                    {
+                                        "name": "z_impl_k_sem_reset",
+                                        "size": 52,
+                                        "identifier": "kernel/sem.c/z_impl_k_sem_reset"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "xip.c",
+                                "size": 52,
+                                "identifier": "kernel/xip.c",
+                                "children": [
+                                    {
+                                        "name": "z_data_copy",
+                                        "size": 52,
+                                        "identifier": "kernel/xip.c/z_data_copy"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "idle.c",
+                                "size": 48,
+                                "identifier": "kernel/idle.c",
+                                "children": [
+                                    {
+                                        "name": "idle",
+                                        "size": 36,
+                                        "identifier": "kernel/idle.c/idle"
+                                    },
+                                    {
+                                        "name": "z_pm_save_idle_exit",
+                                        "size": 12,
+                                        "identifier": "kernel/idle.c/z_pm_save_idle_exit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "errno.c",
+                                "size": 4,
+                                "identifier": "kernel/errno.c",
+                                "children": [
+                                    {
+                                        "name": "_k_neg_eagain",
+                                        "size": 4,
+                                        "identifier": "kernel/errno.c/_k_neg_eagain"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "banner.c",
+                                "size": 28,
+                                "identifier": "kernel/banner.c",
+                                "children": [
+                                    {
+                                        "name": "boot_banner",
+                                        "size": 28,
+                                        "identifier": "kernel/banner.c/boot_banner"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "out",
+                        "size": 124,
+                        "identifier": "out",
+                        "children": [
+                            {
+                                "name": "footprints",
+                                "size": 124,
+                                "identifier": "out/footprints",
+                                "children": [
+                                    {
+                                        "name": "default",
+                                        "size": 124,
+                                        "identifier": "out/footprints/default",
+                                        "children": [
+                                            {
+                                                "name": "nrf51dk_nrf51422",
+                                                "size": 124,
+                                                "identifier": "out/footprints/default/nrf51dk_nrf51422",
+                                                "children": [
+                                                    {
+                                                        "name": "zephyr",
+                                                        "size": 124,
+                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr",
+                                                        "children": [
+                                                            {
+                                                                "name": "dev_handles.c",
+                                                                "size": 18,
+                                                                "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/dev_handles.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "__devicehdl_DT_N_S_soc_S_uart_40002000",
+                                                                        "size": 6,
+                                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/dev_handles.c/__devicehdl_DT_N_S_soc_S_uart_40002000"
+                                                                    },
+                                                                    {
+                                                                        "name": "__devicehdl_DT_N_S_soc_S_clock_40000000",
+                                                                        "size": 6,
+                                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/dev_handles.c/__devicehdl_DT_N_S_soc_S_clock_40000000"
+                                                                    },
+                                                                    {
+                                                                        "name": "__devicehdl_DT_N_S_soc_S_gpio_50000000",
+                                                                        "size": 6,
+                                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/dev_handles.c/__devicehdl_DT_N_S_soc_S_gpio_50000000"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "isr_tables.c",
+                                                                "size": 104,
+                                                                "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/isr_tables.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "_irq_vector_table",
+                                                                        "size": 104,
+                                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/isr_tables.c/_irq_vector_table"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "misc",
+                                                                "size": 2,
+                                                                "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/misc",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "generated",
+                                                                        "size": 2,
+                                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/misc/generated",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "configs.c",
+                                                                                "size": 2,
+                                                                                "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/misc/generated/configs.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "_ConfigAbsSyms",
+                                                                                        "size": 2,
+                                                                                        "identifier": "out/footprints/default/nrf51dk_nrf51422/zephyr/misc/generated/configs.c/_ConfigAbsSyms"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "modules",
+                        "size": 14,
+                        "identifier": "modules",
+                        "children": [
+                            {
+                                "name": "hal_nordic",
+                                "size": 14,
+                                "identifier": "modules/hal_nordic",
+                                "children": [
+                                    {
+                                        "name": "nrfx",
+                                        "size": 14,
+                                        "identifier": "modules/hal_nordic/nrfx",
+                                        "children": [
+                                            {
+                                                "name": "nrfx_glue.c",
+                                                "size": 14,
+                                                "identifier": "modules/hal_nordic/nrfx/nrfx_glue.c",
+                                                "children": [
+                                                    {
+                                                        "name": "nrfx_isr",
+                                                        "size": 6,
+                                                        "identifier": "modules/hal_nordic/nrfx/nrfx_glue.c/nrfx_isr"
+                                                    },
+                                                    {
+                                                        "name": "nrfx_busy_wait",
+                                                        "size": 8,
+                                                        "identifier": "modules/hal_nordic/nrfx/nrfx_glue.c/nrfx_busy_wait"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arch",
+                        "size": 718,
+                        "identifier": "arch",
+                        "children": [
+                            {
+                                "name": "arm",
+                                "size": 718,
+                                "identifier": "arch/arm",
+                                "children": [
+                                    {
+                                        "name": "core",
+                                        "size": 718,
+                                        "identifier": "arch/arm/core",
+                                        "children": [
+                                            {
+                                                "name": "aarch32",
+                                                "size": 718,
+                                                "identifier": "arch/arm/core/aarch32",
+                                                "children": [
+                                                    {
+                                                        "name": "irq_manage.c",
+                                                        "size": 148,
+                                                        "identifier": "arch/arm/core/aarch32/irq_manage.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "z_arm_irq_priority_set",
+                                                                "size": 84,
+                                                                "identifier": "arch/arm/core/aarch32/irq_manage.c/z_arm_irq_priority_set"
+                                                            },
+                                                            {
+                                                                "name": "arch_irq_is_enabled",
+                                                                "size": 28,
+                                                                "identifier": "arch/arm/core/aarch32/irq_manage.c/arch_irq_is_enabled"
+                                                            },
+                                                            {
+                                                                "name": "arch_irq_enable",
+                                                                "size": 24,
+                                                                "identifier": "arch/arm/core/aarch32/irq_manage.c/arch_irq_enable"
+                                                            },
+                                                            {
+                                                                "name": "z_irq_spurious",
+                                                                "size": 12,
+                                                                "identifier": "arch/arm/core/aarch32/irq_manage.c/z_irq_spurious"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "fatal.c",
+                                                        "size": 100,
+                                                        "identifier": "arch/arm/core/aarch32/fatal.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "z_do_kernel_oops",
+                                                                "size": 12,
+                                                                "identifier": "arch/arm/core/aarch32/fatal.c/z_do_kernel_oops"
+                                                            },
+                                                            {
+                                                                "name": "z_arm_fatal_error",
+                                                                "size": 88,
+                                                                "identifier": "arch/arm/core/aarch32/fatal.c/z_arm_fatal_error"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "thread.c",
+                                                        "size": 80,
+                                                        "identifier": "arch/arm/core/aarch32/thread.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "arch_switch_to_main_thread",
+                                                                "size": 32,
+                                                                "identifier": "arch/arm/core/aarch32/thread.c/arch_switch_to_main_thread"
+                                                            },
+                                                            {
+                                                                "name": "arch_new_thread",
+                                                                "size": 48,
+                                                                "identifier": "arch/arm/core/aarch32/thread.c/arch_new_thread"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "cortex_m",
+                                                        "size": 298,
+                                                        "identifier": "arch/arm/core/aarch32/cortex_m",
+                                                        "children": [
+                                                            {
+                                                                "name": "thread_abort.c",
+                                                                "size": 44,
+                                                                "identifier": "arch/arm/core/aarch32/cortex_m/thread_abort.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "z_impl_k_thread_abort",
+                                                                        "size": 44,
+                                                                        "identifier": "arch/arm/core/aarch32/cortex_m/thread_abort.c/z_impl_k_thread_abort"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "fault.c",
+                                                                "size": 206,
+                                                                "identifier": "arch/arm/core/aarch32/cortex_m/fault.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "z_arm_fault",
+                                                                        "size": 204,
+                                                                        "identifier": "arch/arm/core/aarch32/cortex_m/fault.c/z_arm_fault"
+                                                                    },
+                                                                    {
+                                                                        "name": "z_arm_fault_init",
+                                                                        "size": 2,
+                                                                        "identifier": "arch/arm/core/aarch32/cortex_m/fault.c/z_arm_fault_init"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "irq_init.c",
+                                                                "size": 48,
+                                                                "identifier": "arch/arm/core/aarch32/cortex_m/irq_init.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "z_arm_interrupt_init",
+                                                                        "size": 48,
+                                                                        "identifier": "arch/arm/core/aarch32/cortex_m/irq_init.c/z_arm_interrupt_init"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "swap.c",
+                                                        "size": 56,
+                                                        "identifier": "arch/arm/core/aarch32/swap.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "arch_swap",
+                                                                "size": 56,
+                                                                "identifier": "arch/arm/core/aarch32/swap.c/arch_swap"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "prep_c.c",
+                                                        "size": 24,
+                                                        "identifier": "arch/arm/core/aarch32/prep_c.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "relocate_vector_table",
+                                                                "size": 2,
+                                                                "identifier": "arch/arm/core/aarch32/prep_c.c/relocate_vector_table"
+                                                            },
+                                                            {
+                                                                "name": "z_arm_prep_c",
+                                                                "size": 22,
+                                                                "identifier": "arch/arm/core/aarch32/prep_c.c/z_arm_prep_c"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "nmi.c",
+                                                        "size": 12,
+                                                        "identifier": "arch/arm/core/aarch32/nmi.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "z_arm_nmi",
+                                                                "size": 12,
+                                                                "identifier": "arch/arm/core/aarch32/nmi.c/z_arm_nmi"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WORKSPACE",
+                "size": 2718,
+                "identifier": "/opt/projects/zephyrproject",
+                "children": [
+                    {
+                        "name": "modules",
+                        "size": 2718,
+                        "identifier": "modules",
+                        "children": [
+                            {
+                                "name": "hal",
+                                "size": 2718,
+                                "identifier": "modules/hal",
+                                "children": [
+                                    {
+                                        "name": "nordic",
+                                        "size": 2718,
+                                        "identifier": "modules/hal/nordic",
+                                        "children": [
+                                            {
+                                                "name": "nrfx",
+                                                "size": 2718,
+                                                "identifier": "modules/hal/nordic/nrfx",
+                                                "children": [
+                                                    {
+                                                        "name": "hal",
+                                                        "size": 36,
+                                                        "identifier": "modules/hal/nordic/nrfx/hal",
+                                                        "children": [
+                                                            {
+                                                                "name": "nrf_gpio.h",
+                                                                "size": 36,
+                                                                "identifier": "modules/hal/nordic/nrfx/hal/nrf_gpio.h",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrf_gpio_cfg_sense_set",
+                                                                        "size": 36,
+                                                                        "identifier": "modules/hal/nordic/nrfx/hal/nrf_gpio.h/nrf_gpio_cfg_sense_set"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "drivers",
+                                                        "size": 2374,
+                                                        "identifier": "modules/hal/nordic/nrfx/drivers",
+                                                        "children": [
+                                                            {
+                                                                "name": "src",
+                                                                "size": 2374,
+                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrfx_gpiote.c",
+                                                                        "size": 1972,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "pin_in_use_by_te",
+                                                                                "size": 20,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/pin_in_use_by_te"
+                                                                            },
+                                                                            {
+                                                                                "name": "call_handler",
+                                                                                "size": 56,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/call_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "release_handler",
+                                                                                "size": 84,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/release_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "pin_handler_trigger_uninit",
+                                                                                "size": 80,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/pin_handler_trigger_uninit"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_cb",
+                                                                                "size": 96,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/m_cb"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_trigger_disable",
+                                                                                "size": 76,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_trigger_disable"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_is_init",
+                                                                                "size": 20,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_is_init"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_init",
+                                                                                "size": 84,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_init"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_trigger_enable",
+                                                                                "size": 136,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_trigger_enable"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_channel_alloc",
+                                                                                "size": 20,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_channel_alloc"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_channel_get",
+                                                                                "size": 48,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_channel_get"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_input_configure",
+                                                                                "size": 420,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_input_configure"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_pin_uninit",
+                                                                                "size": 68,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_pin_uninit"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_output_configure",
+                                                                                "size": 268,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_output_configure"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_irq_handler",
+                                                                                "size": 464,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_irq_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_global_callback_set",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_global_callback_set"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_gpiote_channel_free",
+                                                                                "size": 20,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/nrfx_gpiote_channel_free"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_clock.c",
+                                                                        "size": 402,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "nrfx_clock_init",
+                                                                                "size": 36,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c/nrfx_clock_init"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_clock_enable",
+                                                                                "size": 18,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c/nrfx_clock_enable"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_power_clock_irq_handler",
+                                                                                "size": 108,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c/nrfx_power_clock_irq_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_clock_stop",
+                                                                                "size": 136,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c/nrfx_clock_stop"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_clock_start",
+                                                                                "size": 104,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c/nrfx_clock_start"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "helpers",
+                                                        "size": 120,
+                                                        "identifier": "modules/hal/nordic/nrfx/helpers",
+                                                        "children": [
+                                                            {
+                                                                "name": "nrfx_flag32_allocator.c",
+                                                                "size": 120,
+                                                                "identifier": "modules/hal/nordic/nrfx/helpers/nrfx_flag32_allocator.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrfx_flag32_free",
+                                                                        "size": 48,
+                                                                        "identifier": "modules/hal/nordic/nrfx/helpers/nrfx_flag32_allocator.c/nrfx_flag32_free"
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_flag32_alloc",
+                                                                        "size": 72,
+                                                                        "identifier": "modules/hal/nordic/nrfx/helpers/nrfx_flag32_allocator.c/nrfx_flag32_alloc"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "mdk",
+                                                        "size": 188,
+                                                        "identifier": "modules/hal/nordic/nrfx/mdk",
+                                                        "children": [
+                                                            {
+                                                                "name": "system_nrf51.c",
+                                                                "size": 188,
+                                                                "identifier": "modules/hal/nordic/nrfx/mdk/system_nrf51.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "SystemInit",
+                                                                        "size": 188,
+                                                                        "identifier": "modules/hal/nordic/nrfx/mdk/system_nrf51.c/SystemInit"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 1301,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 23206
+}
