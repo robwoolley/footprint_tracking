@@ -1,0 +1,1525 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 16926,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 3941,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "link.0",
+                        "size": 32,
+                        "identifier": ":/link.0"
+                    },
+                    {
+                        "name": "p.2",
+                        "size": 16,
+                        "identifier": ":/p.2"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 48,
+                        "identifier": ":/mfy.1"
+                    },
+                    {
+                        "name": "__compound_literal.1",
+                        "size": 1,
+                        "identifier": ":/__compound_literal.1"
+                    },
+                    {
+                        "name": "__compound_literal.3",
+                        "size": 2,
+                        "identifier": ":/__compound_literal.3"
+                    },
+                    {
+                        "name": "__compound_literal.5",
+                        "size": 19,
+                        "identifier": ":/__compound_literal.5"
+                    },
+                    {
+                        "name": "dynamic_regions.0",
+                        "size": 12,
+                        "identifier": ":/dynamic_regions.0"
+                    },
+                    {
+                        "name": "str.1",
+                        "size": 30,
+                        "identifier": ":/str.1"
+                    },
+                    {
+                        "name": "str.3",
+                        "size": 129,
+                        "identifier": ":/str.3"
+                    },
+                    {
+                        "name": "events.0",
+                        "size": 20,
+                        "identifier": ":/events.0"
+                    },
+                    {
+                        "name": "link.10",
+                        "size": 8,
+                        "identifier": ":/link.10"
+                    },
+                    {
+                        "name": "link.2",
+                        "size": 16,
+                        "identifier": ":/link.2"
+                    },
+                    {
+                        "name": "link.6",
+                        "size": 8,
+                        "identifier": ":/link.6"
+                    },
+                    {
+                        "name": "mfy.11",
+                        "size": 16,
+                        "identifier": ":/mfy.11"
+                    },
+                    {
+                        "name": "mfy.3",
+                        "size": 16,
+                        "identifier": ":/mfy.3"
+                    },
+                    {
+                        "name": "mfy.7",
+                        "size": 16,
+                        "identifier": ":/mfy.7"
+                    },
+                    {
+                        "name": "ticks_at_preempt.2",
+                        "size": 4,
+                        "identifier": ":/ticks_at_preempt.2"
+                    },
+                    {
+                        "name": "link.1",
+                        "size": 8,
+                        "identifier": ":/link.1"
+                    },
+                    {
+                        "name": "link.3",
+                        "size": 8,
+                        "identifier": ":/link.3"
+                    },
+                    {
+                        "name": "link.4",
+                        "size": 8,
+                        "identifier": ":/link.4"
+                    },
+                    {
+                        "name": "link.5",
+                        "size": 8,
+                        "identifier": ":/link.5"
+                    },
+                    {
+                        "name": "m.10",
+                        "size": 16,
+                        "identifier": ":/m.10"
+                    },
+                    {
+                        "name": "m.11",
+                        "size": 16,
+                        "identifier": ":/m.11"
+                    },
+                    {
+                        "name": "m.6",
+                        "size": 16,
+                        "identifier": ":/m.6"
+                    },
+                    {
+                        "name": "m.7",
+                        "size": 16,
+                        "identifier": ":/m.7"
+                    },
+                    {
+                        "name": "m.8",
+                        "size": 16,
+                        "identifier": ":/m.8"
+                    },
+                    {
+                        "name": "m.9",
+                        "size": 16,
+                        "identifier": ":/m.9"
+                    },
+                    {
+                        "name": "cli.1",
+                        "size": 16,
+                        "identifier": ":/cli.1"
+                    },
+                    {
+                        "name": "on.2",
+                        "size": 4,
+                        "identifier": ":/on.2"
+                    },
+                    {
+                        "name": "wait_q.0",
+                        "size": 8,
+                        "identifier": ":/wait_q.0"
+                    },
+                    {
+                        "name": "SystemCoreClock",
+                        "size": 4,
+                        "identifier": ":/SystemCoreClock"
+                    },
+                    {
+                        "name": "rtt_term_mutex",
+                        "size": 20,
+                        "identifier": ":/rtt_term_mutex"
+                    },
+                    {
+                        "name": "_kernel",
+                        "size": 40,
+                        "identifier": ":/_kernel"
+                    },
+                    {
+                        "name": "z_main_thread",
+                        "size": 128,
+                        "identifier": ":/z_main_thread"
+                    },
+                    {
+                        "name": "k_sys_work_q",
+                        "size": 160,
+                        "identifier": ":/k_sys_work_q"
+                    },
+                    {
+                        "name": "z_interrupt_stacks",
+                        "size": 2080,
+                        "identifier": ":/z_interrupt_stacks"
+                    },
+                    {
+                        "name": "bt_dev",
+                        "size": 280,
+                        "identifier": ":/bt_dev"
+                    },
+                    {
+                        "name": "z_idle_threads",
+                        "size": 128,
+                        "identifier": ":/z_idle_threads"
+                    },
+                    {
+                        "name": "_sw_isr_table",
+                        "size": 384,
+                        "identifier": ":/_sw_isr_table"
+                    },
+                    {
+                        "name": "_SEGGER_RTT",
+                        "size": 168,
+                        "identifier": ":/_SEGGER_RTT"
+                    }
+                ]
+            },
+            {
+                "name": "ZEPHYR_BASE",
+                "size": 11808,
+                "identifier": "/opt/projects/zephyrproject/zephyr",
+                "children": [
+                    {
+                        "name": "subsys",
+                        "size": 8990,
+                        "identifier": "subsys",
+                        "children": [
+                            {
+                                "name": "bluetooth",
+                                "size": 6748,
+                                "identifier": "subsys/bluetooth",
+                                "children": [
+                                    {
+                                        "name": "controller",
+                                        "size": 5079,
+                                        "identifier": "subsys/bluetooth/controller",
+                                        "children": [
+                                            {
+                                                "name": "ll_sw",
+                                                "size": 2869,
+                                                "identifier": "subsys/bluetooth/controller/ll_sw",
+                                                "children": [
+                                                    {
+                                                        "name": "ull_adv.c",
+                                                        "size": 84,
+                                                        "identifier": "subsys/bluetooth/controller/ll_sw/ull_adv.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "ll_adv",
+                                                                "size": 72,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_adv.c/ll_adv"
+                                                            },
+                                                            {
+                                                                "name": "ll_adv_ticker_ext",
+                                                                "size": 12,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_adv.c/ll_adv_ticker_ext"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ll_addr.c",
+                                                        "size": 12,
+                                                        "identifier": "subsys/bluetooth/controller/ll_sw/ll_addr.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "pub_addr",
+                                                                "size": 6,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ll_addr.c/pub_addr"
+                                                            },
+                                                            {
+                                                                "name": "rnd_addr",
+                                                                "size": 6,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ll_addr.c/rnd_addr"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull.c",
+                                                        "size": 1784,
+                                                        "identifier": "subsys/bluetooth/controller/ll_sw/ull.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "mark_disable",
+                                                                "size": 4,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mark_disable"
+                                                            },
+                                                            {
+                                                                "name": "mem_link_done",
+                                                                "size": 44,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mem_link_done"
+                                                            },
+                                                            {
+                                                                "name": "mem_link_rx",
+                                                                "size": 64,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mem_link_rx"
+                                                            },
+                                                            {
+                                                                "name": "mem_pdu_rx",
+                                                                "size": 344,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mem_pdu_rx"
+                                                            },
+                                                            {
+                                                                "name": "memq_ll_rx",
+                                                                "size": 8,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/memq_ll_rx"
+                                                            },
+                                                            {
+                                                                "name": "memq_ull_done",
+                                                                "size": 8,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/memq_ull_done"
+                                                            },
+                                                            {
+                                                                "name": "memq_ull_rx",
+                                                                "size": 8,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/memq_ull_rx"
+                                                            },
+                                                            {
+                                                                "name": "sem_recv",
+                                                                "size": 4,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/sem_recv"
+                                                            },
+                                                            {
+                                                                "name": "sem_ticker_api_cb",
+                                                                "size": 24,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/sem_ticker_api_cb"
+                                                            },
+                                                            {
+                                                                "name": "ticker_nodes",
+                                                                "size": 144,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/ticker_nodes"
+                                                            },
+                                                            {
+                                                                "name": "ticker_user_ops",
+                                                                "size": 624,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/ticker_user_ops"
+                                                            },
+                                                            {
+                                                                "name": "ticker_users",
+                                                                "size": 32,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/ticker_users"
+                                                            },
+                                                            {
+                                                                "name": "mem_done",
+                                                                "size": 168,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mem_done"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_done",
+                                                                "size": 24,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mfifo_done"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_pdu_rx_free",
+                                                                "size": 24,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mfifo_pdu_rx_free"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_prep",
+                                                                "size": 260,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull.c/mfifo_prep"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull_filter.c",
+                                                        "size": 730,
+                                                        "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "fal",
+                                                                "size": 64,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/fal"
+                                                            },
+                                                            {
+                                                                "name": "fal_filter",
+                                                                "size": 50,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/fal_filter"
+                                                            },
+                                                            {
+                                                                "name": "local_rpas",
+                                                                "size": 48,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/local_rpas"
+                                                            },
+                                                            {
+                                                                "name": "peer_irk_count",
+                                                                "size": 1,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/peer_irk_count"
+                                                            },
+                                                            {
+                                                                "name": "peer_irk_rl_ids",
+                                                                "size": 8,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/peer_irk_rl_ids"
+                                                            },
+                                                            {
+                                                                "name": "peer_irks",
+                                                                "size": 128,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/peer_irks"
+                                                            },
+                                                            {
+                                                                "name": "rl",
+                                                                "size": 320,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/rl"
+                                                            },
+                                                            {
+                                                                "name": "rl_enable",
+                                                                "size": 1,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/rl_enable"
+                                                            },
+                                                            {
+                                                                "name": "rl_filter",
+                                                                "size": 50,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/rl_filter"
+                                                            },
+                                                            {
+                                                                "name": "rpa_last_ms",
+                                                                "size": 8,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/rpa_last_ms"
+                                                            },
+                                                            {
+                                                                "name": "rpa_timeout_ms",
+                                                                "size": 4,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/rpa_timeout_ms"
+                                                            },
+                                                            {
+                                                                "name": "rpa_work",
+                                                                "size": 48,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/ull_filter.c/rpa_work"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "nordic",
+                                                        "size": 259,
+                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic",
+                                                        "children": [
+                                                            {
+                                                                "name": "lll",
+                                                                "size": 246,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "lll.c",
+                                                                        "size": 22,
+                                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "dev_entropy",
+                                                                                "size": 4,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/dev_entropy"
+                                                                            },
+                                                                            {
+                                                                                "name": "event",
+                                                                                "size": 12,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/event"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/preempt_ack"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/preempt_req"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_start_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/preempt_start_ack"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_start_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/preempt_start_req"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_stop_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/preempt_stop_ack"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_stop_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c/preempt_stop_req"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "lll_clock.c",
+                                                                        "size": 20,
+                                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "hf_refcnt",
+                                                                                "size": 4,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c/hf_refcnt"
+                                                                            },
+                                                                            {
+                                                                                "name": "lf_cli",
+                                                                                "size": 16,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c/lf_cli"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "lll_adv.c",
+                                                                        "size": 204,
+                                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "mem_pdu",
+                                                                                "size": 164,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv.c/mem_pdu"
+                                                                            },
+                                                                            {
+                                                                                "name": "sem_pdu_free",
+                                                                                "size": 24,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv.c/sem_pdu_free"
+                                                                            },
+                                                                            {
+                                                                                "name": "mfifo_pdu_free",
+                                                                                "size": 16,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv.c/mfifo_pdu_free"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "hal",
+                                                                "size": 13,
+                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrf5",
+                                                                        "size": 13,
+                                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "cntr.c",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "_refcount",
+                                                                                        "size": 1,
+                                                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c/_refcount"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "radio",
+                                                                                "size": 12,
+                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "radio.c",
+                                                                                        "size": 12,
+                                                                                        "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio.c",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "_aar_scratch",
+                                                                                                "size": 3,
+                                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio.c/_aar_scratch"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "isr_cb",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio.c/isr_cb"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "isr_cb_param",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio.c/isr_cb_param"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "sw_tifs_toggle",
+                                                                                                "size": 1,
+                                                                                                "identifier": "subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio.c/sw_tifs_toggle"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "util",
+                                                "size": 324,
+                                                "identifier": "subsys/bluetooth/controller/util",
+                                                "children": [
+                                                    {
+                                                        "name": "mayfly.c",
+                                                        "size": 324,
+                                                        "identifier": "subsys/bluetooth/controller/util/mayfly.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "mfl",
+                                                                "size": 128,
+                                                                "identifier": "subsys/bluetooth/controller/util/mayfly.c/mfl"
+                                                            },
+                                                            {
+                                                                "name": "mfp",
+                                                                "size": 4,
+                                                                "identifier": "subsys/bluetooth/controller/util/mayfly.c/mfp"
+                                                            },
+                                                            {
+                                                                "name": "mft",
+                                                                "size": 192,
+                                                                "identifier": "subsys/bluetooth/controller/util/mayfly.c/mft"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "ticker",
+                                                "size": 44,
+                                                "identifier": "subsys/bluetooth/controller/ticker",
+                                                "children": [
+                                                    {
+                                                        "name": "ticker.c",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/controller/ticker/ticker.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_instance",
+                                                                "size": 44,
+                                                                "identifier": "subsys/bluetooth/controller/ticker/ticker.c/_instance"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "hci",
+                                                "size": 1842,
+                                                "identifier": "subsys/bluetooth/controller/hci",
+                                                "children": [
+                                                    {
+                                                        "name": "hci_driver.c",
+                                                        "size": 1840,
+                                                        "identifier": "subsys/bluetooth/controller/hci/hci_driver.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "recv_fifo",
+                                                                "size": 24,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci_driver.c/recv_fifo"
+                                                            },
+                                                            {
+                                                                "name": "sem_prio_recv",
+                                                                "size": 24,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci_driver.c/sem_prio_recv"
+                                                            },
+                                                            {
+                                                                "name": "prio_recv_thread_stack",
+                                                                "size": 480,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci_driver.c/prio_recv_thread_stack"
+                                                            },
+                                                            {
+                                                                "name": "recv_thread_stack",
+                                                                "size": 1056,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci_driver.c/recv_thread_stack"
+                                                            },
+                                                            {
+                                                                "name": "recv_thread_data",
+                                                                "size": 128,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci_driver.c/recv_thread_data"
+                                                            },
+                                                            {
+                                                                "name": "prio_recv_thread_data",
+                                                                "size": 128,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci_driver.c/prio_recv_thread_data"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "hci.c",
+                                                        "size": 2,
+                                                        "identifier": "subsys/bluetooth/controller/hci/hci.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_opcode",
+                                                                "size": 2,
+                                                                "identifier": "subsys/bluetooth/controller/hci/hci.c/_opcode"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "host",
+                                        "size": 1669,
+                                        "identifier": "subsys/bluetooth/host",
+                                        "children": [
+                                            {
+                                                "name": "buf.c",
+                                                "size": 601,
+                                                "identifier": "subsys/bluetooth/host/buf.c",
+                                                "children": [
+                                                    {
+                                                        "name": "discardable_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/discardable_pool"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_discardable_pool",
+                                                        "size": 84,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/_net_buf_discardable_pool"
+                                                    },
+                                                    {
+                                                        "name": "hci_rx_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/hci_rx_pool"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_rx_pool",
+                                                        "size": 84,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/_net_buf_hci_rx_pool"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_discardable_pool",
+                                                        "size": 135,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/net_buf_data_discardable_pool"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_rx_pool",
+                                                        "size": 210,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/net_buf_data_hci_rx_pool"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "hci_core.c",
+                                                "size": 1068,
+                                                "identifier": "subsys/bluetooth/host/hci_core.c",
+                                                "children": [
+                                                    {
+                                                        "name": "hci_cmd_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/hci_cmd_pool"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_cmd_pool",
+                                                        "size": 56,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/_net_buf_hci_cmd_pool"
+                                                    },
+                                                    {
+                                                        "name": "cmd_data",
+                                                        "size": 24,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/cmd_data"
+                                                    },
+                                                    {
+                                                        "name": "ready_cb",
+                                                        "size": 4,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/ready_cb"
+                                                    },
+                                                    {
+                                                        "name": "tx_thread_data",
+                                                        "size": 128,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/tx_thread_data"
+                                                    },
+                                                    {
+                                                        "name": "tx_thread_stack",
+                                                        "size": 672,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/tx_thread_stack"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_cmd_pool",
+                                                        "size": 140,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/net_buf_data_hci_cmd_pool"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "logging",
+                                "size": 2186,
+                                "identifier": "subsys/logging",
+                                "children": [
+                                    {
+                                        "name": "log_core.c",
+                                        "size": 2114,
+                                        "identifier": "subsys/logging/log_core.c",
+                                        "children": [
+                                            {
+                                                "name": "backend_attached",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_core.c/backend_attached"
+                                            },
+                                            {
+                                                "name": "buf32",
+                                                "size": 1024,
+                                                "identifier": "subsys/logging/log_core.c/buf32"
+                                            },
+                                            {
+                                                "name": "buffered_cnt",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/buffered_cnt"
+                                            },
+                                            {
+                                                "name": "dropped_cnt",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/dropped_cnt"
+                                            },
+                                            {
+                                                "name": "initialized",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/initialized"
+                                            },
+                                            {
+                                                "name": "log_process_thread_timer",
+                                                "size": 56,
+                                                "identifier": "subsys/logging/log_core.c/log_process_thread_timer"
+                                            },
+                                            {
+                                                "name": "panic_mode",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_core.c/panic_mode"
+                                            },
+                                            {
+                                                "name": "proc_tid",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/proc_tid"
+                                            },
+                                            {
+                                                "name": "timestamp_func",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/timestamp_func"
+                                            },
+                                            {
+                                                "name": "log_process_thread_sem",
+                                                "size": 24,
+                                                "identifier": "subsys/logging/log_core.c/log_process_thread_sem"
+                                            },
+                                            {
+                                                "name": "logging_thread",
+                                                "size": 128,
+                                                "identifier": "subsys/logging/log_core.c/logging_thread"
+                                            },
+                                            {
+                                                "name": "logging_stack",
+                                                "size": 800,
+                                                "identifier": "subsys/logging/log_core.c/logging_stack"
+                                            },
+                                            {
+                                                "name": "log_buffer",
+                                                "size": 60,
+                                                "identifier": "subsys/logging/log_core.c/log_buffer"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "log_backend_rtt.c",
+                                        "size": 38,
+                                        "identifier": "subsys/logging/log_backend_rtt.c",
+                                        "children": [
+                                            {
+                                                "name": "panic_mode",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_backend_rtt.c/panic_mode"
+                                            },
+                                            {
+                                                "name": "backend_cb_log_backend_rtt",
+                                                "size": 8,
+                                                "identifier": "subsys/logging/log_backend_rtt.c/backend_cb_log_backend_rtt"
+                                            },
+                                            {
+                                                "name": "char_buf",
+                                                "size": 16,
+                                                "identifier": "subsys/logging/log_backend_rtt.c/char_buf"
+                                            },
+                                            {
+                                                "name": "host_present",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_backend_rtt.c/host_present"
+                                            },
+                                            {
+                                                "name": "log_output_rtt_control_block",
+                                                "size": 12,
+                                                "identifier": "subsys/logging/log_backend_rtt.c/log_output_rtt_control_block"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "log_output.c",
+                                        "size": 8,
+                                        "identifier": "subsys/logging/log_output.c",
+                                        "children": [
+                                            {
+                                                "name": "freq",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_output.c/freq"
+                                            },
+                                            {
+                                                "name": "timestamp_div",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_output.c/timestamp_div"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "log_backend_uart.c",
+                                        "size": 26,
+                                        "identifier": "subsys/logging/log_backend_uart.c",
+                                        "children": [
+                                            {
+                                                "name": "backend_cb_log_backend_uart",
+                                                "size": 8,
+                                                "identifier": "subsys/logging/log_backend_uart.c/backend_cb_log_backend_uart"
+                                            },
+                                            {
+                                                "name": "in_panic",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_backend_uart.c/in_panic"
+                                            },
+                                            {
+                                                "name": "log_output_uart_control_block",
+                                                "size": 12,
+                                                "identifier": "subsys/logging/log_backend_uart.c/log_output_uart_control_block"
+                                            },
+                                            {
+                                                "name": "uart_dev",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_backend_uart.c/uart_dev"
+                                            },
+                                            {
+                                                "name": "uart_output_buf",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_backend_uart.c/uart_output_buf"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "pm",
+                                "size": 56,
+                                "identifier": "subsys/pm",
+                                "children": [
+                                    {
+                                        "name": "pm.c",
+                                        "size": 28,
+                                        "identifier": "subsys/pm/pm.c",
+                                        "children": [
+                                            {
+                                                "name": "pm_notifiers",
+                                                "size": 8,
+                                                "identifier": "subsys/pm/pm.c/pm_notifiers"
+                                            },
+                                            {
+                                                "name": "z_post_ops_required",
+                                                "size": 4,
+                                                "identifier": "subsys/pm/pm.c/z_post_ops_required"
+                                            },
+                                            {
+                                                "name": "z_power_states",
+                                                "size": 12,
+                                                "identifier": "subsys/pm/pm.c/z_power_states"
+                                            },
+                                            {
+                                                "name": "z_power_states_forced",
+                                                "size": 4,
+                                                "identifier": "subsys/pm/pm.c/z_power_states_forced"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "constraint.c",
+                                        "size": 28,
+                                        "identifier": "subsys/pm/constraint.c",
+                                        "children": [
+                                            {
+                                                "name": "power_state_disable_count",
+                                                "size": 28,
+                                                "identifier": "subsys/pm/constraint.c/power_state_disable_count"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arch",
+                        "size": 1,
+                        "identifier": "arch",
+                        "children": [
+                            {
+                                "name": "arm",
+                                "size": 1,
+                                "identifier": "arch/arm",
+                                "children": [
+                                    {
+                                        "name": "core",
+                                        "size": 1,
+                                        "identifier": "arch/arm/core",
+                                        "children": [
+                                            {
+                                                "name": "aarch32",
+                                                "size": 1,
+                                                "identifier": "arch/arm/core/aarch32",
+                                                "children": [
+                                                    {
+                                                        "name": "mpu",
+                                                        "size": 1,
+                                                        "identifier": "arch/arm/core/aarch32/mpu",
+                                                        "children": [
+                                                            {
+                                                                "name": "arm_mpu.c",
+                                                                "size": 1,
+                                                                "identifier": "arch/arm/core/aarch32/mpu/arm_mpu.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "static_regions_num",
+                                                                        "size": 1,
+                                                                        "identifier": "arch/arm/core/aarch32/mpu/arm_mpu.c/static_regions_num"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lib",
+                        "size": 8,
+                        "identifier": "lib",
+                        "children": [
+                            {
+                                "name": "libc",
+                                "size": 4,
+                                "identifier": "lib/libc",
+                                "children": [
+                                    {
+                                        "name": "minimal",
+                                        "size": 4,
+                                        "identifier": "lib/libc/minimal",
+                                        "children": [
+                                            {
+                                                "name": "source",
+                                                "size": 4,
+                                                "identifier": "lib/libc/minimal/source",
+                                                "children": [
+                                                    {
+                                                        "name": "stdout",
+                                                        "size": 4,
+                                                        "identifier": "lib/libc/minimal/source/stdout",
+                                                        "children": [
+                                                            {
+                                                                "name": "stdout_console.c",
+                                                                "size": 4,
+                                                                "identifier": "lib/libc/minimal/source/stdout/stdout_console.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "_stdout_hook",
+                                                                        "size": 4,
+                                                                        "identifier": "lib/libc/minimal/source/stdout/stdout_console.c/_stdout_hook"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "os",
+                                "size": 4,
+                                "identifier": "lib/os",
+                                "children": [
+                                    {
+                                        "name": "printk.c",
+                                        "size": 4,
+                                        "identifier": "lib/os/printk.c",
+                                        "children": [
+                                            {
+                                                "name": "_char_out",
+                                                "size": 4,
+                                                "identifier": "lib/os/printk.c/_char_out"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "drivers",
+                        "size": 304,
+                        "identifier": "drivers",
+                        "children": [
+                            {
+                                "name": "clock_control",
+                                "size": 88,
+                                "identifier": "drivers/clock_control",
+                                "children": [
+                                    {
+                                        "name": "clock_control_nrf.c",
+                                        "size": 88,
+                                        "identifier": "drivers/clock_control/clock_control_nrf.c",
+                                        "children": [
+                                            {
+                                                "name": "data",
+                                                "size": 80,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/data"
+                                            },
+                                            {
+                                                "name": "hfclk_users",
+                                                "size": 4,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/hfclk_users"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_27",
+                                                "size": 4,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/__devstate_dts_ord_27"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "console",
+                                "size": 4,
+                                "identifier": "drivers/console",
+                                "children": [
+                                    {
+                                        "name": "uart_console.c",
+                                        "size": 4,
+                                        "identifier": "drivers/console/uart_console.c",
+                                        "children": [
+                                            {
+                                                "name": "uart_console_dev",
+                                                "size": 4,
+                                                "identifier": "drivers/console/uart_console.c/uart_console_dev"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gpio",
+                                "size": 32,
+                                "identifier": "drivers/gpio",
+                                "children": [
+                                    {
+                                        "name": "gpio_nrfx.c",
+                                        "size": 32,
+                                        "identifier": "drivers/gpio/gpio_nrfx.c",
+                                        "children": [
+                                            {
+                                                "name": "gpio_nrfx_p0_data",
+                                                "size": 12,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_p0_data"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p1_data",
+                                                "size": 12,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_p1_data"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_11",
+                                                "size": 4,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/__devstate_dts_ord_11"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_54",
+                                                "size": 4,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/__devstate_dts_ord_54"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "serial",
+                                "size": 48,
+                                "identifier": "drivers/serial",
+                                "children": [
+                                    {
+                                        "name": "uart_nrfx_uarte.c",
+                                        "size": 48,
+                                        "identifier": "drivers/serial/uart_nrfx_uarte.c",
+                                        "children": [
+                                            {
+                                                "name": "uarte_0_data",
+                                                "size": 20,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte_0_data"
+                                            },
+                                            {
+                                                "name": "uarte_1_data",
+                                                "size": 20,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte_1_data"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_63",
+                                                "size": 4,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/__devstate_dts_ord_63"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_62",
+                                                "size": 4,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/__devstate_dts_ord_62"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "entropy",
+                                "size": 88,
+                                "identifier": "drivers/entropy",
+                                "children": [
+                                    {
+                                        "name": "entropy_nrf5.c",
+                                        "size": 88,
+                                        "identifier": "drivers/entropy/entropy_nrf5.c",
+                                        "children": [
+                                            {
+                                                "name": "entropy_nrf5_data",
+                                                "size": 84,
+                                                "identifier": "drivers/entropy/entropy_nrf5.c/entropy_nrf5_data"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_47",
+                                                "size": 4,
+                                                "identifier": "drivers/entropy/entropy_nrf5.c/__devstate_dts_ord_47"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timer",
+                                "size": 44,
+                                "identifier": "drivers/timer",
+                                "children": [
+                                    {
+                                        "name": "nrf_rtc_timer.c",
+                                        "size": 44,
+                                        "identifier": "drivers/timer/nrf_rtc_timer.c",
+                                        "children": [
+                                            {
+                                                "name": "anchor",
+                                                "size": 8,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/anchor"
+                                            },
+                                            {
+                                                "name": "cc_data",
+                                                "size": 16,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/cc_data"
+                                            },
+                                            {
+                                                "name": "force_isr_mask",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/force_isr_mask"
+                                            },
+                                            {
+                                                "name": "int_mask",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/int_mask"
+                                            },
+                                            {
+                                                "name": "last_count",
+                                                "size": 8,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/last_count"
+                                            },
+                                            {
+                                                "name": "overflow_cnt",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/overflow_cnt"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kernel",
+                        "size": 2505,
+                        "identifier": "kernel",
+                        "children": [
+                            {
+                                "name": "init.c",
+                                "size": 1409,
+                                "identifier": "kernel/init.c",
+                                "children": [
+                                    {
+                                        "name": "z_idle_stacks",
+                                        "size": 352,
+                                        "identifier": "kernel/init.c/z_idle_stacks"
+                                    },
+                                    {
+                                        "name": "z_main_stack",
+                                        "size": 1056,
+                                        "identifier": "kernel/init.c/z_main_stack"
+                                    },
+                                    {
+                                        "name": "z_sys_post_kernel",
+                                        "size": 1,
+                                        "identifier": "kernel/init.c/z_sys_post_kernel"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "work.c",
+                                "size": 8,
+                                "identifier": "kernel/work.c",
+                                "children": [
+                                    {
+                                        "name": "pending_cancels",
+                                        "size": 8,
+                                        "identifier": "kernel/work.c/pending_cancels"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sched.c",
+                                "size": 12,
+                                "identifier": "kernel/sched.c",
+                                "children": [
+                                    {
+                                        "name": "pending_current",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/pending_current"
+                                    },
+                                    {
+                                        "name": "slice_max_prio",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/slice_max_prio"
+                                    },
+                                    {
+                                        "name": "slice_time",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/slice_time"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timeout.c",
+                                "size": 20,
+                                "identifier": "kernel/timeout.c",
+                                "children": [
+                                    {
+                                        "name": "announce_remaining",
+                                        "size": 4,
+                                        "identifier": "kernel/timeout.c/announce_remaining"
+                                    },
+                                    {
+                                        "name": "curr_tick",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/curr_tick"
+                                    },
+                                    {
+                                        "name": "timeout_list",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/timeout_list"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "system_work_q.c",
+                                "size": 1056,
+                                "identifier": "kernel/system_work_q.c",
+                                "children": [
+                                    {
+                                        "name": "sys_work_q_stack",
+                                        "size": 1056,
+                                        "identifier": "kernel/system_work_q.c/sys_work_q_stack"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WORKSPACE",
+                "size": 1176,
+                "identifier": "/opt/projects/zephyrproject",
+                "children": [
+                    {
+                        "name": "modules",
+                        "size": 1176,
+                        "identifier": "modules",
+                        "children": [
+                            {
+                                "name": "hal",
+                                "size": 136,
+                                "identifier": "modules/hal",
+                                "children": [
+                                    {
+                                        "name": "nordic",
+                                        "size": 136,
+                                        "identifier": "modules/hal/nordic",
+                                        "children": [
+                                            {
+                                                "name": "nrfx",
+                                                "size": 136,
+                                                "identifier": "modules/hal/nordic/nrfx",
+                                                "children": [
+                                                    {
+                                                        "name": "drivers",
+                                                        "size": 136,
+                                                        "identifier": "modules/hal/nordic/nrfx/drivers",
+                                                        "children": [
+                                                            {
+                                                                "name": "src",
+                                                                "size": 136,
+                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrfx_clock.c",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_clock_cb",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c/m_clock_cb"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_gpiote.c",
+                                                                        "size": 124,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_cb",
+                                                                                "size": 124,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/m_cb"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_ppi.c",
+                                                                        "size": 4,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_ppi.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_channels_allocated",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_ppi.c/m_channels_allocated"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "debug",
+                                "size": 1040,
+                                "identifier": "modules/debug",
+                                "children": [
+                                    {
+                                        "name": "segger",
+                                        "size": 1040,
+                                        "identifier": "modules/debug/segger",
+                                        "children": [
+                                            {
+                                                "name": "SEGGER",
+                                                "size": 1040,
+                                                "identifier": "modules/debug/segger/SEGGER",
+                                                "children": [
+                                                    {
+                                                        "name": "SEGGER_RTT.c",
+                                                        "size": 1040,
+                                                        "identifier": "modules/debug/segger/SEGGER/SEGGER_RTT.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_acDownBuffer",
+                                                                "size": 16,
+                                                                "identifier": "modules/debug/segger/SEGGER/SEGGER_RTT.c/_acDownBuffer"
+                                                            },
+                                                            {
+                                                                "name": "_acUpBuffer",
+                                                                "size": 1024,
+                                                                "identifier": "modules/debug/segger/SEGGER/SEGGER_RTT.c/_acUpBuffer"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 1,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 16926
+}
