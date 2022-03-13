@@ -160,11 +160,6 @@
                         "identifier": ":/__device_dts_ord_59"
                     },
                     {
-                        "name": "__aeabi_ldiv0",
-                        "size": 2,
-                        "identifier": ":/__aeabi_ldiv0"
-                    },
-                    {
                         "name": "__device_dts_ord_79",
                         "size": 24,
                         "identifier": ":/__device_dts_ord_79"
@@ -203,6 +198,11 @@
                         "name": "__device_dts_ord_25",
                         "size": 24,
                         "identifier": ":/__device_dts_ord_25"
+                    },
+                    {
+                        "name": "__aeabi_idiv0",
+                        "size": 2,
+                        "identifier": ":/__aeabi_idiv0"
                     },
                     {
                         "name": "footprint_mem_partition",
