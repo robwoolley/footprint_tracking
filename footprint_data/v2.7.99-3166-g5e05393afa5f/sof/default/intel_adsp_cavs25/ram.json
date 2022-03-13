@@ -1,0 +1,1958 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 53914,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 5870,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "hdr$0",
+                        "size": 8,
+                        "identifier": ":/hdr$0"
+                    },
+                    {
+                        "name": "ssp_freq_sources",
+                        "size": 4,
+                        "identifier": ":/ssp_freq_sources"
+                    },
+                    {
+                        "name": "cpu_freq",
+                        "size": 4,
+                        "identifier": ":/cpu_freq"
+                    },
+                    {
+                        "name": "ssp_freq",
+                        "size": 4,
+                        "identifier": ":/ssp_freq"
+                    },
+                    {
+                        "name": "pipe_tr",
+                        "size": 8,
+                        "identifier": ":/pipe_tr"
+                    },
+                    {
+                        "name": "_kernel",
+                        "size": 56,
+                        "identifier": ":/_kernel"
+                    },
+                    {
+                        "name": "z_main_thread",
+                        "size": 104,
+                        "identifier": ":/z_main_thread"
+                    },
+                    {
+                        "name": "k_sys_work_q",
+                        "size": 136,
+                        "identifier": ":/k_sys_work_q"
+                    },
+                    {
+                        "name": "soc_cpus_active",
+                        "size": 2,
+                        "identifier": ":/soc_cpus_active"
+                    },
+                    {
+                        "name": "z_interrupt_stacks",
+                        "size": 4096,
+                        "identifier": ":/z_interrupt_stacks"
+                    },
+                    {
+                        "name": "wait_tr",
+                        "size": 8,
+                        "identifier": ":/wait_tr"
+                    },
+                    {
+                        "name": "ipc_task_ops",
+                        "size": 12,
+                        "identifier": ":/ipc_task_ops"
+                    },
+                    {
+                        "name": "z_idle_threads",
+                        "size": 208,
+                        "identifier": ":/z_idle_threads"
+                    },
+                    {
+                        "name": "_sw_isr_table",
+                        "size": 1192,
+                        "identifier": ":/_sw_isr_table"
+                    },
+                    {
+                        "name": "ipc_tr",
+                        "size": 8,
+                        "identifier": ":/ipc_tr"
+                    },
+                    {
+                        "name": "sched_spinlock",
+                        "size": 4,
+                        "identifier": ":/sched_spinlock"
+                    },
+                    {
+                        "name": "idc_tr",
+                        "size": 8,
+                        "identifier": ":/idc_tr"
+                    },
+                    {
+                        "name": "buffer_tr",
+                        "size": 8,
+                        "identifier": ":/buffer_tr"
+                    }
+                ]
+            },
+            {
+                "name": "ZEPHYR_BASE",
+                "size": 7915,
+                "identifier": "/opt/projects/zephyrproject/zephyr",
+                "children": [
+                    {
+                        "name": "soc",
+                        "size": 84,
+                        "identifier": "soc",
+                        "children": [
+                            {
+                                "name": "xtensa",
+                                "size": 84,
+                                "identifier": "soc/xtensa",
+                                "children": [
+                                    {
+                                        "name": "intel_adsp",
+                                        "size": 84,
+                                        "identifier": "soc/xtensa/intel_adsp",
+                                        "children": [
+                                            {
+                                                "name": "common",
+                                                "size": 84,
+                                                "identifier": "soc/xtensa/intel_adsp/common",
+                                                "children": [
+                                                    {
+                                                        "name": "soc_mp.c",
+                                                        "size": 20,
+                                                        "identifier": "soc/xtensa/intel_adsp/common/soc_mp.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "start_rec",
+                                                                "size": 12,
+                                                                "identifier": "soc/xtensa/intel_adsp/common/soc_mp.c/start_rec"
+                                                            },
+                                                            {
+                                                                "name": "z_mp_stack_top",
+                                                                "size": 4,
+                                                                "identifier": "soc/xtensa/intel_adsp/common/soc_mp.c/z_mp_stack_top"
+                                                            },
+                                                            {
+                                                                "name": "_loader_storage_manifest_start",
+                                                                "size": 4,
+                                                                "identifier": "soc/xtensa/intel_adsp/common/soc_mp.c/_loader_storage_manifest_start"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "trace_out.c",
+                                                        "size": 64,
+                                                        "identifier": "soc/xtensa/intel_adsp/common/trace_out.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "data_rec",
+                                                                "size": 64,
+                                                                "identifier": "soc/xtensa/intel_adsp/common/trace_out.c/data_rec"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lib",
+                        "size": 8,
+                        "identifier": "lib",
+                        "children": [
+                            {
+                                "name": "os",
+                                "size": 8,
+                                "identifier": "lib/os",
+                                "children": [
+                                    {
+                                        "name": "printk.c",
+                                        "size": 8,
+                                        "identifier": "lib/os/printk.c",
+                                        "children": [
+                                            {
+                                                "name": "lock",
+                                                "size": 4,
+                                                "identifier": "lib/os/printk.c/lock"
+                                            },
+                                            {
+                                                "name": "_char_out",
+                                                "size": 4,
+                                                "identifier": "lib/os/printk.c/_char_out"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "drivers",
+                        "size": 44,
+                        "identifier": "drivers",
+                        "children": [
+                            {
+                                "name": "timer",
+                                "size": 12,
+                                "identifier": "drivers/timer",
+                                "children": [
+                                    {
+                                        "name": "cavs_timer.c",
+                                        "size": 12,
+                                        "identifier": "drivers/timer/cavs_timer.c",
+                                        "children": [
+                                            {
+                                                "name": "lock",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/cavs_timer.c/lock"
+                                            },
+                                            {
+                                                "name": "last_count",
+                                                "size": 8,
+                                                "identifier": "drivers/timer/cavs_timer.c/last_count"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "interrupt_controller",
+                                "size": 32,
+                                "identifier": "drivers/interrupt_controller",
+                                "children": [
+                                    {
+                                        "name": "intc_cavs.c",
+                                        "size": 32,
+                                        "identifier": "drivers/interrupt_controller/intc_cavs.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_14",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/__devstate_dts_ord_14"
+                                            },
+                                            {
+                                                "name": "cavs_3_runtime",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/cavs_3_runtime"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_13",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/__devstate_dts_ord_13"
+                                            },
+                                            {
+                                                "name": "cavs_2_runtime",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/cavs_2_runtime"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_12",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/__devstate_dts_ord_12"
+                                            },
+                                            {
+                                                "name": "cavs_1_runtime",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/cavs_1_runtime"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_15",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/__devstate_dts_ord_15"
+                                            },
+                                            {
+                                                "name": "cavs_0_runtime",
+                                                "size": 4,
+                                                "identifier": "drivers/interrupt_controller/intc_cavs.c/cavs_0_runtime"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kernel",
+                        "size": 5181,
+                        "identifier": "kernel",
+                        "children": [
+                            {
+                                "name": "sem.c",
+                                "size": 4,
+                                "identifier": "kernel/sem.c",
+                                "children": [
+                                    {
+                                        "name": "lock",
+                                        "size": 4,
+                                        "identifier": "kernel/sem.c/lock"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "work.c",
+                                "size": 12,
+                                "identifier": "kernel/work.c",
+                                "children": [
+                                    {
+                                        "name": "lock",
+                                        "size": 4,
+                                        "identifier": "kernel/work.c/lock"
+                                    },
+                                    {
+                                        "name": "pending_cancels",
+                                        "size": 8,
+                                        "identifier": "kernel/work.c/pending_cancels"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timer.c",
+                                "size": 4,
+                                "identifier": "kernel/timer.c",
+                                "children": [
+                                    {
+                                        "name": "lock",
+                                        "size": 4,
+                                        "identifier": "kernel/timer.c/lock"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "smp.c",
+                                "size": 8,
+                                "identifier": "kernel/smp.c",
+                                "children": [
+                                    {
+                                        "name": "start_flag",
+                                        "size": 4,
+                                        "identifier": "kernel/smp.c/start_flag"
+                                    },
+                                    {
+                                        "name": "global_lock",
+                                        "size": 4,
+                                        "identifier": "kernel/smp.c/global_lock"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "init.c",
+                                "size": 4097,
+                                "identifier": "kernel/init.c",
+                                "children": [
+                                    {
+                                        "name": "z_idle_stacks",
+                                        "size": 2048,
+                                        "identifier": "kernel/init.c/z_idle_stacks"
+                                    },
+                                    {
+                                        "name": "z_main_stack",
+                                        "size": 2048,
+                                        "identifier": "kernel/init.c/z_main_stack"
+                                    },
+                                    {
+                                        "name": "z_sys_post_kernel",
+                                        "size": 1,
+                                        "identifier": "kernel/init.c/z_sys_post_kernel"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sched.c",
+                                "size": 8,
+                                "identifier": "kernel/sched.c",
+                                "children": [
+                                    {
+                                        "name": "slice_time",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/slice_time"
+                                    },
+                                    {
+                                        "name": "slice_max_prio",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/slice_max_prio"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timeout.c",
+                                "size": 24,
+                                "identifier": "kernel/timeout.c",
+                                "children": [
+                                    {
+                                        "name": "timeout_list",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/timeout_list"
+                                    },
+                                    {
+                                        "name": "announce_remaining",
+                                        "size": 4,
+                                        "identifier": "kernel/timeout.c/announce_remaining"
+                                    },
+                                    {
+                                        "name": "timeout_lock",
+                                        "size": 4,
+                                        "identifier": "kernel/timeout.c/timeout_lock"
+                                    },
+                                    {
+                                        "name": "curr_tick",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/curr_tick"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "system_work_q.c",
+                                "size": 1024,
+                                "identifier": "kernel/system_work_q.c",
+                                "children": [
+                                    {
+                                        "name": "sys_work_q_stack",
+                                        "size": 1024,
+                                        "identifier": "kernel/system_work_q.c/sys_work_q_stack"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "subsys",
+                        "size": 2566,
+                        "identifier": "subsys",
+                        "children": [
+                            {
+                                "name": "logging",
+                                "size": 2566,
+                                "identifier": "subsys/logging",
+                                "children": [
+                                    {
+                                        "name": "log_core.c",
+                                        "size": 1422,
+                                        "identifier": "subsys/logging/log_core.c",
+                                        "children": [
+                                            {
+                                                "name": "log_process_thread_timer",
+                                                "size": 56,
+                                                "identifier": "subsys/logging/log_core.c/log_process_thread_timer"
+                                            },
+                                            {
+                                                "name": "dropped_cnt",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/dropped_cnt"
+                                            },
+                                            {
+                                                "name": "buffered_cnt",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/buffered_cnt"
+                                            },
+                                            {
+                                                "name": "timestamp_func",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/timestamp_func"
+                                            },
+                                            {
+                                                "name": "panic_mode",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_core.c/panic_mode"
+                                            },
+                                            {
+                                                "name": "list",
+                                                "size": 8,
+                                                "identifier": "subsys/logging/log_core.c/list"
+                                            },
+                                            {
+                                                "name": "log_strdup_pool_buf",
+                                                "size": 160,
+                                                "identifier": "subsys/logging/log_core.c/log_strdup_pool_buf"
+                                            },
+                                            {
+                                                "name": "initialized",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/initialized"
+                                            },
+                                            {
+                                                "name": "backend_attached",
+                                                "size": 1,
+                                                "identifier": "subsys/logging/log_core.c/backend_attached"
+                                            },
+                                            {
+                                                "name": "proc_tid",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_core.c/proc_tid"
+                                            },
+                                            {
+                                                "name": "log_process_thread_sem",
+                                                "size": 16,
+                                                "identifier": "subsys/logging/log_core.c/log_process_thread_sem"
+                                            },
+                                            {
+                                                "name": "logging_thread",
+                                                "size": 104,
+                                                "identifier": "subsys/logging/log_core.c/logging_thread"
+                                            },
+                                            {
+                                                "name": "logging_stack",
+                                                "size": 1024,
+                                                "identifier": "subsys/logging/log_core.c/logging_stack"
+                                            },
+                                            {
+                                                "name": "log_strdup_pool",
+                                                "size": 32,
+                                                "identifier": "subsys/logging/log_core.c/log_strdup_pool"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "log_msg.c",
+                                        "size": 1056,
+                                        "identifier": "subsys/logging/log_msg.c",
+                                        "children": [
+                                            {
+                                                "name": "log_msg_pool_buf",
+                                                "size": 1024,
+                                                "identifier": "subsys/logging/log_msg.c/log_msg_pool_buf"
+                                            },
+                                            {
+                                                "name": "log_msg_pool",
+                                                "size": 32,
+                                                "identifier": "subsys/logging/log_msg.c/log_msg_pool"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "log_output.c",
+                                        "size": 8,
+                                        "identifier": "subsys/logging/log_output.c",
+                                        "children": [
+                                            {
+                                                "name": "freq",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_output.c/freq"
+                                            },
+                                            {
+                                                "name": "timestamp_div",
+                                                "size": 4,
+                                                "identifier": "subsys/logging/log_output.c/timestamp_div"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "log_backend_adsp.c",
+                                        "size": 80,
+                                        "identifier": "subsys/logging/log_backend_adsp.c",
+                                        "children": [
+                                            {
+                                                "name": "backend_cb_log_backend_adsp",
+                                                "size": 8,
+                                                "identifier": "subsys/logging/log_backend_adsp.c/backend_cb_log_backend_adsp"
+                                            },
+                                            {
+                                                "name": "log_output_adsp_control_block",
+                                                "size": 12,
+                                                "identifier": "subsys/logging/log_backend_adsp.c/log_output_adsp_control_block"
+                                            },
+                                            {
+                                                "name": "log_buf",
+                                                "size": 60,
+                                                "identifier": "subsys/logging/log_backend_adsp.c/log_buf"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arch",
+                        "size": 32,
+                        "identifier": "arch",
+                        "children": [
+                            {
+                                "name": "common",
+                                "size": 32,
+                                "identifier": "arch/common",
+                                "children": [
+                                    {
+                                        "name": "sw_isr_common.c",
+                                        "size": 32,
+                                        "identifier": "arch/common/sw_isr_common.c",
+                                        "children": [
+                                            {
+                                                "name": "lvl2_irq_list",
+                                                "size": 32,
+                                                "identifier": "arch/common/sw_isr_common.c/lvl2_irq_list"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WORKSPACE",
+                "size": 40126,
+                "identifier": "/opt/projects/zephyrproject",
+                "children": [
+                    {
+                        "name": "modules",
+                        "size": 40126,
+                        "identifier": "modules",
+                        "children": [
+                            {
+                                "name": "audio",
+                                "size": 40126,
+                                "identifier": "modules/audio",
+                                "children": [
+                                    {
+                                        "name": "sof",
+                                        "size": 40126,
+                                        "identifier": "modules/audio/sof",
+                                        "children": [
+                                            {
+                                                "name": "src",
+                                                "size": 31398,
+                                                "identifier": "modules/audio/sof/src",
+                                                "children": [
+                                                    {
+                                                        "name": "drivers",
+                                                        "size": 444,
+                                                        "identifier": "modules/audio/sof/src/drivers",
+                                                        "children": [
+                                                            {
+                                                                "name": "intel",
+                                                                "size": 436,
+                                                                "identifier": "modules/audio/sof/src/drivers/intel",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "ssp",
+                                                                        "size": 68,
+                                                                        "identifier": "modules/audio/sof/src/drivers/intel/ssp",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "mn.c",
+                                                                                "size": 60,
+                                                                                "identifier": "modules/audio/sof/src/drivers/intel/ssp/mn.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "mn",
+                                                                                        "size": 52,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/ssp/mn.c/mn"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "mn_tr",
+                                                                                        "size": 8,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/ssp/mn.c/mn_tr"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "ssp.c",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/drivers/intel/ssp/ssp.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "ssp_tr",
+                                                                                        "size": 8,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/ssp/ssp.c/ssp_tr"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "dmic",
+                                                                        "size": 344,
+                                                                        "identifier": "modules/audio/sof/src/drivers/intel/dmic",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "dmic.c",
+                                                                                "size": 344,
+                                                                                "identifier": "modules/audio/sof/src/drivers/intel/dmic/dmic.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "dmic_global",
+                                                                                        "size": 336,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/dmic/dmic.c/dmic_global"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "dmic_tr",
+                                                                                        "size": 8,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/dmic/dmic.c/dmic_tr"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "hda",
+                                                                        "size": 16,
+                                                                        "identifier": "modules/audio/sof/src/drivers/intel/hda",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "hda.c",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/drivers/intel/hda/hda.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "hda_tr",
+                                                                                        "size": 8,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/hda/hda.c/hda_tr"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "hda-dma.c",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/drivers/intel/hda/hda-dma.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "hdma_tr",
+                                                                                        "size": 8,
+                                                                                        "identifier": "modules/audio/sof/src/drivers/intel/hda/hda-dma.c/hdma_tr"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "alh.c",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/drivers/intel/alh.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "alh_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/drivers/intel/alh.c/alh_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "dw",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/drivers/dw",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "dma.c",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/drivers/dw/dma.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "dwdma_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/drivers/dw/dma.c/dwdma_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "platform",
+                                                        "size": 3700,
+                                                        "identifier": "modules/audio/sof/src/platform",
+                                                        "children": [
+                                                            {
+                                                                "name": "intel",
+                                                                "size": 3700,
+                                                                "identifier": "modules/audio/sof/src/platform/intel",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "cavs",
+                                                                        "size": 3700,
+                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "platform.c",
+                                                                                "size": 144,
+                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/platform.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "timer",
+                                                                                        "size": 48,
+                                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs/platform.c/timer"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "arch_timers",
+                                                                                        "size": 96,
+                                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs/platform.c/arch_timers"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "lib",
+                                                                                "size": 3556,
+                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "clk.c",
+                                                                                        "size": 124,
+                                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/clk.c",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "active_freq_idx",
+                                                                                                "size": 4,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/clk.c/active_freq_idx"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "platform_clocks_info",
+                                                                                                "size": 120,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/clk.c/platform_clocks_info"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "dai.c",
+                                                                                        "size": 3040,
+                                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dai.c",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "ssp",
+                                                                                                "size": 456,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dai.c/ssp"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "hda",
+                                                                                                "size": 1216,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dai.c/hda"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "dmic",
+                                                                                                "size": 152,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dai.c/dmic"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "alh",
+                                                                                                "size": 1216,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dai.c/alh"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "dma.c",
+                                                                                        "size": 384,
+                                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dma.c",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "dma",
+                                                                                                "size": 384,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/dma.c/dma"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "pm_runtime.c",
+                                                                                        "size": 8,
+                                                                                        "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/pm_runtime.c",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "power_tr",
+                                                                                                "size": 8,
+                                                                                                "identifier": "modules/audio/sof/src/platform/intel/cavs/lib/pm_runtime.c/power_tr"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "lib",
+                                                        "size": 72,
+                                                        "identifier": "modules/audio/sof/src/lib",
+                                                        "children": [
+                                                            {
+                                                                "name": "notifier.c",
+                                                                "size": 40,
+                                                                "identifier": "modules/audio/sof/src/lib/notifier.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "notify_data",
+                                                                        "size": 32,
+                                                                        "identifier": "modules/audio/sof/src/lib/notifier.c/notify_data"
+                                                                    },
+                                                                    {
+                                                                        "name": "nt_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/lib/notifier.c/nt_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "dai.c",
+                                                                "size": 16,
+                                                                "identifier": "modules/audio/sof/src/lib/dai.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "groups",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/lib/dai.c/groups"
+                                                                    },
+                                                                    {
+                                                                        "name": "dai_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/lib/dai.c/dai_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "agent.c",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/lib/agent.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "sa_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/lib/agent.c/sa_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "dma.c",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/lib/dma.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "dma_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/lib/dma.c/dma_tr"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "audio",
+                                                        "size": 380,
+                                                        "identifier": "modules/audio/sof/src/audio",
+                                                        "children": [
+                                                            {
+                                                                "name": "component.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/component.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "cd",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/component.c/cd"
+                                                                    },
+                                                                    {
+                                                                        "name": "comp_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/component.c/comp_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "pipeline",
+                                                                "size": 60,
+                                                                "identifier": "modules/audio/sof/src/audio/pipeline",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "pipeline-graph.c",
+                                                                        "size": 60,
+                                                                        "identifier": "modules/audio/sof/src/audio/pipeline/pipeline-graph.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "pipeline_posn",
+                                                                                "size": 60,
+                                                                                "identifier": "modules/audio/sof/src/audio/pipeline/pipeline-graph.c/pipeline_posn"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "host.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/host.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "comp_host_info",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/host.c/comp_host_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "host_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/host.c/host_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "eq_fir",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/eq_fir",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "eq_fir.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/eq_fir/eq_fir.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_eq_fir_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/eq_fir/eq_fir.c/comp_eq_fir_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "eq_fir_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/eq_fir/eq_fir.c/eq_fir_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "eq_iir",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/eq_iir",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "eq_iir.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/eq_iir/eq_iir.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_eq_iir_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/eq_iir/eq_iir.c/comp_eq_iir_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "eq_iir_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/eq_iir/eq_iir.c/eq_iir_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "asrc",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/asrc",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "asrc.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/asrc/asrc.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_asrc_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/asrc/asrc.c/comp_asrc_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "asrc_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/asrc/asrc.c/asrc_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "dcblock",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/dcblock",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "dcblock.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/dcblock/dcblock.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_dcblock_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/dcblock/dcblock.c/comp_dcblock_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "dcblock_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/dcblock/dcblock.c/dcblock_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "selector",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/selector",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "selector.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/selector/selector.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_selector_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/selector/selector.c/comp_selector_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "selector_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/selector/selector.c/selector_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "kpb.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/kpb.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "comp_kpb_info",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/kpb.c/comp_kpb_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "kpb_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/kpb.c/kpb_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "switch.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/switch.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "comp_switch_info",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/switch.c/comp_switch_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "switch_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/switch.c/switch_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "mixer.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/mixer.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "comp_mixer_info",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/mixer.c/comp_mixer_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "mixer_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/mixer.c/mixer_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "tone.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/tone.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "comp_tone_info",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/tone.c/comp_tone_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "tone_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/tone.c/tone_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "dai.c",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/dai.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "comp_dai_info",
+                                                                        "size": 12,
+                                                                        "identifier": "modules/audio/sof/src/audio/dai.c/comp_dai_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "dai_comp_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/audio/dai.c/dai_comp_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "volume",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/volume",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "volume.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/volume/volume.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_volume_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/volume/volume.c/comp_volume_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "volume_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/volume/volume.c/volume_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "src",
+                                                                "size": 20,
+                                                                "identifier": "modules/audio/sof/src/audio/src",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "src.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/audio/src/src.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_src_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/src/src.c/comp_src_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "src_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/src/src.c/src_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "mux",
+                                                                "size": 40,
+                                                                "identifier": "modules/audio/sof/src/audio/mux",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "mux.c",
+                                                                        "size": 40,
+                                                                        "identifier": "modules/audio/sof/src/audio/mux/mux.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_mux_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/mux/mux.c/comp_mux_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "comp_demux_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/audio/mux/mux.c/comp_demux_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "demux_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/mux/mux.c/demux_tr"
+                                                                            },
+                                                                            {
+                                                                                "name": "mux_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/audio/mux/mux.c/mux_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "init",
+                                                        "size": 128,
+                                                        "identifier": "modules/audio/sof/src/init",
+                                                        "children": [
+                                                            {
+                                                                "name": "init.c",
+                                                                "size": 128,
+                                                                "identifier": "modules/audio/sof/src/init/init.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "sof",
+                                                                        "size": 128,
+                                                                        "identifier": "modules/audio/sof/src/init/init.c/sof"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "schedule",
+                                                        "size": 25008,
+                                                        "identifier": "modules/audio/sof/src/schedule",
+                                                        "children": [
+                                                            {
+                                                                "name": "zephyr.c",
+                                                                "size": 8608,
+                                                                "identifier": "modules/audio/sof/src/schedule/zephyr.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "idc_work",
+                                                                        "size": 136,
+                                                                        "identifier": "modules/audio/sof/src/schedule/zephyr.c/idc_work"
+                                                                    },
+                                                                    {
+                                                                        "name": "q_zephyr_idc",
+                                                                        "size": 72,
+                                                                        "identifier": "modules/audio/sof/src/schedule/zephyr.c/q_zephyr_idc"
+                                                                    },
+                                                                    {
+                                                                        "name": "_p4threads_q_zephyr_idc",
+                                                                        "size": 208,
+                                                                        "identifier": "modules/audio/sof/src/schedule/zephyr.c/_p4threads_q_zephyr_idc"
+                                                                    },
+                                                                    {
+                                                                        "name": "_p4stacks_q_zephyr_idc",
+                                                                        "size": 8192,
+                                                                        "identifier": "modules/audio/sof/src/schedule/zephyr.c/_p4stacks_q_zephyr_idc"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "zephyr_ll.c",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/schedule/zephyr_ll.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "ll_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/schedule/zephyr_ll.c/ll_tr"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "zephyr_domain.c",
+                                                                "size": 16384,
+                                                                "identifier": "modules/audio/sof/src/schedule/zephyr_domain.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "ll_sched_stack",
+                                                                        "size": 16384,
+                                                                        "identifier": "modules/audio/sof/src/schedule/zephyr_domain.c/ll_sched_stack"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "schedule.c",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/schedule/schedule.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "sch_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/schedule/schedule.c/sch_tr"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "samples",
+                                                        "size": 40,
+                                                        "identifier": "modules/audio/sof/src/samples",
+                                                        "children": [
+                                                            {
+                                                                "name": "audio",
+                                                                "size": 40,
+                                                                "identifier": "modules/audio/sof/src/samples/audio",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "detect_test.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/samples/audio/detect_test.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_keyword_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/samples/audio/detect_test.c/comp_keyword_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "keyword_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/samples/audio/detect_test.c/keyword_tr"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "smart_amp_test.c",
+                                                                        "size": 20,
+                                                                        "identifier": "modules/audio/sof/src/samples/audio/smart_amp_test.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "comp_smart_amp_info",
+                                                                                "size": 12,
+                                                                                "identifier": "modules/audio/sof/src/samples/audio/smart_amp_test.c/comp_smart_amp_info"
+                                                                            },
+                                                                            {
+                                                                                "name": "smart_amp_comp_tr",
+                                                                                "size": 8,
+                                                                                "identifier": "modules/audio/sof/src/samples/audio/smart_amp_test.c/smart_amp_comp_tr"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "idc",
+                                                        "size": 192,
+                                                        "identifier": "modules/audio/sof/src/idc",
+                                                        "children": [
+                                                            {
+                                                                "name": "idc.c",
+                                                                "size": 192,
+                                                                "identifier": "modules/audio/sof/src/idc/idc.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "static_payload",
+                                                                        "size": 192,
+                                                                        "identifier": "modules/audio/sof/src/idc/idc.c/static_payload"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "include",
+                                                        "size": 1418,
+                                                        "identifier": "modules/audio/sof/src/include",
+                                                        "children": [
+                                                            {
+                                                                "name": "sof",
+                                                                "size": 1418,
+                                                                "identifier": "modules/audio/sof/src/include/sof",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "audio",
+                                                                        "size": 1418,
+                                                                        "identifier": "modules/audio/sof/src/include/sof/audio",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "coefficients",
+                                                                                "size": 1418,
+                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "src",
+                                                                                        "size": 1090,
+                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_25_24_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_25_24_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_25_24_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_25_24_1814_5000.h/src_int16_25_24_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_6_1_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_6_1_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_6_1_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_6_1_1814_5000.h/src_int16_6_1_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_2_1_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_2_1_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_2_1_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_2_1_1814_5000.h/src_int16_2_1_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_table.h",
+                                                                                                "size": 530,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_table1",
+                                                                                                        "size": 196,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/src_table1"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "src_in_fs",
+                                                                                                        "size": 28,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/src_in_fs"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "fir_one",
+                                                                                                        "size": 2,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/fir_one"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "src_out_fs",
+                                                                                                        "size": 28,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/src_out_fs"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "src_int16_1_1_0_0",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/src_int16_1_1_0_0"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "src_table2",
+                                                                                                        "size": 196,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/src_table2"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "src_int16_0_0_0_0",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_table.h/src_int16_0_0_0_0"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_3_2_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_3_2_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_3_2_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_3_2_1814_5000.h/src_int16_3_2_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_3_1_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_3_1_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_3_1_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_3_1_1814_5000.h/src_int16_3_1_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_20_21_1667_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_20_21_1667_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_20_21_1667_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_20_21_1667_5000.h/src_int16_20_21_1667_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_1_3_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_1_3_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_1_3_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_1_3_1814_5000.h/src_int16_1_3_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_1_6_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_1_6_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_1_6_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_1_6_1814_5000.h/src_int16_1_6_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_24_25_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_24_25_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_24_25_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_24_25_1814_5000.h/src_int16_24_25_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_21_20_1667_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_21_20_1667_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_21_20_1667_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_21_20_1667_5000.h/src_int16_21_20_1667_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_1_2_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_1_2_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_1_2_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_1_2_1814_5000.h/src_int16_1_2_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_2_3_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_2_3_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_2_3_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_2_3_1814_5000.h/src_int16_2_3_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_8_7_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_8_7_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_8_7_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_8_7_1814_5000.h/src_int16_8_7_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "src_tiny_int16_7_8_1814_5000.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_7_8_1814_5000.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "src_int16_7_8_1814_5000",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/src/src_tiny_int16_7_8_1814_5000.h/src_int16_7_8_1814_5000"
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "pdm_decim",
+                                                                                        "size": 328,
+                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_05_4325_5100_010_095.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_05_4325_5100_010_095.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_05_4325_5100_010_095",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_05_4325_5100_010_095.h/pdm_decim_int32_05_4325_5100_010_095"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_02_4323_5100_010_095.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_02_4323_5100_010_095.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_02_4323_5100_010_095",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_02_4323_5100_010_095.h/pdm_decim_int32_02_4323_5100_010_095"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_10_4156_5345_010_090.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_10_4156_5345_010_090.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_10_4156_5345_010_090",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_10_4156_5345_010_090.h/pdm_decim_int32_10_4156_5345_010_090"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_03_4375_5100_010_095.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_03_4375_5100_010_095.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_03_4375_5100_010_095",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_03_4375_5100_010_095.h/pdm_decim_int32_03_4375_5100_010_095"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_08_4156_5301_010_090.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_08_4156_5301_010_090.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_08_4156_5301_010_090",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_08_4156_5301_010_090.h/pdm_decim_int32_08_4156_5301_010_090"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_12_4156_5345_010_090.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_12_4156_5345_010_090.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_12_4156_5345_010_090",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_12_4156_5345_010_090.h/pdm_decim_int32_12_4156_5345_010_090"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_06_4172_5100_010_095.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_06_4172_5100_010_095.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_06_4172_5100_010_095",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_06_4172_5100_010_095.h/pdm_decim_int32_06_4172_5100_010_095"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_04_4318_5100_010_095.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_04_4318_5100_010_095.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_04_4318_5100_010_095",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_04_4318_5100_010_095.h/pdm_decim_int32_04_4318_5100_010_095"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_table.h",
+                                                                                                "size": 40,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_table.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "fir_list",
+                                                                                                        "size": 40,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_table.h/fir_list"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "pdm_decim_int32_02_4375_5100_010_095.h",
+                                                                                                "size": 32,
+                                                                                                "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_02_4375_5100_010_095.h",
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "name": "pdm_decim_int32_02_4375_5100_010_095",
+                                                                                                        "size": 32,
+                                                                                                        "identifier": "modules/audio/sof/src/include/sof/audio/coefficients/pdm_decim/pdm_decim_int32_02_4375_5100_010_095.h/pdm_decim_int32_02_4375_5100_010_095"
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "trace",
+                                                        "size": 8,
+                                                        "identifier": "modules/audio/sof/src/trace",
+                                                        "children": [
+                                                            {
+                                                                "name": "dma-trace.c",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/trace/dma-trace.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "dt_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/trace/dma-trace.c/dt_tr"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ipc",
+                                                        "size": 8,
+                                                        "identifier": "modules/audio/sof/src/ipc",
+                                                        "children": [
+                                                            {
+                                                                "name": "dma-copy.c",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/src/ipc/dma-copy.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "dmacpy_tr",
+                                                                        "size": 8,
+                                                                        "identifier": "modules/audio/sof/src/ipc/dma-copy.c/dmacpy_tr"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "zephyr",
+                                                "size": 8728,
+                                                "identifier": "modules/audio/sof/zephyr",
+                                                "children": [
+                                                    {
+                                                        "name": "wrapper.c",
+                                                        "size": 360,
+                                                        "identifier": "modules/audio/sof/zephyr/wrapper.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "sof_heap",
+                                                                "size": 24,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/sof_heap"
+                                                            },
+                                                            {
+                                                                "name": "host_notify",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/host_notify"
+                                                            },
+                                                            {
+                                                                "name": "start_flag",
+                                                                "size": 4,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/start_flag"
+                                                            },
+                                                            {
+                                                                "name": "p_idc",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/p_idc"
+                                                            },
+                                                            {
+                                                                "name": "idc",
+                                                                "size": 304,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/idc"
+                                                            },
+                                                            {
+                                                                "name": "zephyr_tr",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/zephyr_tr"
+                                                            },
+                                                            {
+                                                                "name": "_smex_placeholder",
+                                                                "size": 4,
+                                                                "identifier": "modules/audio/sof/zephyr/wrapper.c/_smex_placeholder"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "edf_schedule.c",
+                                                        "size": 8360,
+                                                        "identifier": "modules/audio/sof/zephyr/edf_schedule.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "schedule_edf_ops",
+                                                                "size": 32,
+                                                                "identifier": "modules/audio/sof/zephyr/edf_schedule.c/schedule_edf_ops"
+                                                            },
+                                                            {
+                                                                "name": "edf_workq",
+                                                                "size": 136,
+                                                                "identifier": "modules/audio/sof/zephyr/edf_schedule.c/edf_workq"
+                                                            },
+                                                            {
+                                                                "name": "edf_workq_stack",
+                                                                "size": 8192,
+                                                                "identifier": "modules/audio/sof/zephyr/edf_schedule.c/edf_workq_stack"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "schedule.c",
+                                                        "size": 8,
+                                                        "identifier": "modules/audio/sof/zephyr/schedule.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_schedulers",
+                                                                "size": 8,
+                                                                "identifier": "modules/audio/sof/zephyr/schedule.c/_schedulers"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 3,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 53914
+}
